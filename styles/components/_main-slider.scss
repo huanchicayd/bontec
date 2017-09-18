@@ -1,0 +1,128 @@
+.home-slider {
+  height: 500px;
+  overflow: hidden;
+
+  .container {
+    height: 100%;
+  }
+}
+
+.home-slider__slider-item01 {
+  height: 500px;
+  background: url('../images/slider01.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  outline: none;
+}
+
+.home-slider__slider-item02 {
+  height: 500px;
+  background: url('../images/slider02.jpg') no-repeat center;
+  background-size: cover;
+  display: flex;
+  outline: none;
+}
+
+.home-slider__content {
+  height: 100%;
+  position: relative;
+}
+
+.home-slider__content__box {
+  position: absolute;
+  bottom: 0;
+  right: 80px;
+  width: 350px;
+  height: calc(100% - 75px);
+  background: rgba(26,45,95, .85);
+  color: #fff;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-slider__content__box__text {
+  text-align: center;
+
+  h1 {
+    text-transform: uppercase;
+    font-family: $text-bold;
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 30px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 25px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+  outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+  opacity: 1;
+}
+
+.slick-dots li button:before {
+  font-size: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  opacity: .25;
+  background: $color-one;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  background: $color-two;
+}

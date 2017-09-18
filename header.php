@@ -9,25 +9,32 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-3">
-                    <a href="#">
-                        <img src="logo.svg" alt="Logotipo da Bontec">
+                <div class="col-2">
+                    <a href="#" class="header__brand">
+                        <img src="images/logotipo.svg" alt="Logotipo da Bontec">
                     </a>
                 </div>
-                <div class="col-9">
-                    <nav>
-                        <ul>
-                            <li>Sobre</li>
-                            <li>Planos</li>
-                            <li>Serviços</li>
-                            <li>Obras</li>
-                            <li>Loja</li>
-                            <li>Contato</li>
-                        </ul>
-                    </nav>
+                <div class="col-10">
+                    <div class="main-nav">
+                        <div class="main-nav__btn-container">
+                            <button class="main-nav__btn">
+                                <span></span>
+                            </button>
+                        </div>
+                        <nav class="main-nav__navmenu">
+                            <ul>
+                                <li><a href="#">Sobre</a></li>
+                                <li><a href="#">Planos</a></li>
+                                <li><a href="#">Serviços</a></li>
+                                <li><a href="#">Obras</a></li>
+                                <li><a href="#">Loja</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
