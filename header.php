@@ -12,12 +12,12 @@
     <header class="header">
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-lg-2 col-6">
                     <a href="#" class="header__brand">
                         <img src="images/logotipo.svg" alt="Logotipo da Bontec">
                     </a>
                 </div>
-                <div class="col-10">
+                <div class="col-lg-10 col-6">
                     <div class="main-nav">
                         <div class="main-nav__btn-container">
                             <button class="main-nav__btn">

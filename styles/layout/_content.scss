@@ -1,5 +1,377 @@
 .voce-sabia {
+  margin: 50px 0 100px 0;
+
+  h2 {
+    margin-bottom: 35px;
+  }
+
   p {
     text-align: center;
+  }
+
+  strong {
+    color: $color-two;
+  }
+}
+
+.voce-sabia__image-container {
+  width: 200px;
+  height: 200px;
+  margin: 25px auto;
+  background: #dce3e3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+
+  img {
+    display: block;
+    width: 150px;
+    margin: auto;
+  }
+}
+
+.saude-predial {
+  margin-bottom: 100px;
+
+  h2 {
+    color: $color-two;
+    margin-bottom: 10px;
+  }
+
+  strong {
+    color: $color-two;
+  }
+}
+
+.saude-predial__title-destaque {
+  text-transform: initial;
+  color: $color-six;
+}
+
+.saude-predial__subtitulo {
+  font-size: 22px;
+  text-align: center;
+  font-family: $text-regular;
+}
+
+.saude-predial__video {
+  margin: 50px 0;
+  text-align: center;
+
+  iframe {
+    width: 80%;
+  }
+}
+
+.saude-predial-btn {
+  display: block;
+  margin: 25px auto 75px auto;
+}
+
+.saude-predial__servicos {
+  h3 {
+    color: $color-three;
+    font-size: 22px;
+  }
+
+  img {
+    margin: 25px 0 15px 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  strong {
+    color: $color-three;
+  }
+}
+
+.saude-predial__obras {
+  h3 {
+    color: $color-four;
+    font-size: 22px;
+  }
+
+  img {
+    margin: 25px 0 15px 0;
+  }
+
+  p {
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+
+  strong {
+    color: $color-four;
+  }
+}
+
+.beneficios {
+  margin-bottom: 190px;
+
+  h2 {
+    margin-bottom: 50px;
+  }
+}
+
+.beneficios__lista {
+  li {
+    margin-bottom: 25px;
+    position: relative;
+    padding-left: 50px;
+  }
+
+  img {
+    position: absolute;
+    width: 25px;
+    top: -5px;
+    left: 0;
+  }
+}
+
+.hidrometro {
+  background: #dce3e3;
+  height: 182px;
+  margin-bottom: 150px;
+}
+
+.hidrometro__texto {
+  h3 {
+    font-family: $text-regular;
+    text-transform: initial;
+    font-size: 28px;
+    color: $color-one;
+    margin-top: 50px;
+    padding: 0 180px 0 90px;
+    line-height: 38px;
+  }
+}
+
+.hidrometro__animacao {
+  position: relative;
+  transform: translatey(-25px);
+}
+
+img.hidro-top-marker {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  margin-top: -15px;
+  margin-left: -11px;
+  z-index: 10;
+}
+
+.hidro-top-marker {
+  width: 19px;
+  animation: hidro-top-marker linear 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: hidro-top-marker linear 2s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: hidro-top-marker linear 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: hidro-top-marker linear 2s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: hidro-top-marker linear 2s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes hidro-top-marker{
+  0% {
+    transform:  rotate(-180deg) ;
+  }
+  100% {
+    transform:  rotate(0deg) ;
+  }
+}
+
+@-moz-keyframes hidro-top-marker{
+  0% {
+    -moz-transform:  rotate(-180deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes hidro-top-marker {
+  0% {
+    -webkit-transform:  rotate(-180deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+}
+
+@-o-keyframes hidro-top-marker {
+  0% {
+    -o-transform:  rotate(-180deg) ;
+  }
+  100% {
+    -o-transform:  rotate(0deg) ;
+  }
+}
+
+@-ms-keyframes hidro-top-marker {
+  0% {
+    -ms-transform:  rotate(-180deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(0deg) ;
+  }
+}
+
+img.hidro-arrow-01 {
+  position: absolute;
+  top: 60%;
+  left: 65%;
+  display: block;
+  margin-top: -15px;
+  margin-left: -11px;
+  z-index: 10;
+}
+
+.hidro-arrow-01 {
+  width: 15px;
+  animation: hidro-arrow-01 linear 5s;
+  animation-iteration-count: infinite;
+  transform-origin: 60% 60%;
+  -webkit-animation: hidro-arrow-01 linear 5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 60% 60%;
+  -moz-animation: hidro-arrow-01 linear 5s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 60% 60%;
+  -o-animation: hidro-arrow-01 linear 5s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 60% 60%;
+  -ms-animation: hidro-arrow-01 linear 5s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 60% 60%;
+}
+
+@keyframes hidro-arrow-01 {
+  0% {
+    transform:  rotate(-360deg) ;
+  }
+  100% {
+    transform:  rotate(0deg) ;
+  }
+}
+
+@-moz-keyframes hidro-arrow-01 {
+  0% {
+    -moz-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes hidro-arrow-01 {
+  0% {
+    -webkit-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+}
+
+@-o-keyframes hidro-arrow-01 {
+  0% {
+    -o-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -o-transform:  rotate(0deg) ;
+  }
+}
+
+@-ms-keyframes hidro-arrow-01 {
+  0% {
+    -ms-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(0deg) ;
+  }
+}
+
+img.hidro-arrow-02 {
+  position: absolute;
+  top: 60%;
+  left: 37%;
+  display: block;
+  margin-top: -15px;
+  margin-left: -11px;
+  z-index: 10;
+}
+
+.hidro-arrow-02 {
+  width: 15px;
+  animation: hidro-arrow-02 linear 3s;
+  animation-iteration-count: infinite;
+  transform-origin: 60% 60%;
+  -webkit-animation: hidro-arrow-02 linear 3s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 60% 60%;
+  -moz-animation: hidro-arrow-02 linear 3s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 60% 60%;
+  -o-animation: hidro-arrow-02 linear 3s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 60% 60%;
+  -ms-animation: hidro-arrow-02 linear 3s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 60% 60%;
+}
+
+@keyframes hidro-arrow-02 {
+  0% {
+    transform:  rotate(-360deg) ;
+  }
+  100% {
+    transform:  rotate(0deg) ;
+  }
+}
+
+@-moz-keyframes hidro-arrow-02 {
+  0% {
+    -moz-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -moz-transform:  rotate(0deg) ;
+  }
+}
+
+@-webkit-keyframes hidro-arrow-02 {
+  0% {
+    -webkit-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -webkit-transform:  rotate(0deg) ;
+  }
+}
+
+@-o-keyframes hidro-arrow-02 {
+  0% {
+    -o-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -o-transform:  rotate(0deg) ;
+  }
+}
+
+@-ms-keyframes hidro-arrow-02 {
+  0% {
+    -ms-transform:  rotate(-360deg) ;
+  }
+  100% {
+    -ms-transform:  rotate(0deg) ;
   }
 }

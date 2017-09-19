@@ -1,5 +1,5 @@
 *, *:before, *:after {
-  //box-sizing: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -17,7 +17,7 @@ body {
 }
 
 p {
-
+  line-height: 24px;
 }
 
 a {
@@ -66,6 +66,12 @@ h3 {
   text-transform: uppercase;
   font-size: 14px;
   font-family: $text-medium;
-  padding: 10px 30px;
+  padding: 10px 50px;
   cursor: pointer;
+  transition: .5s;
+
+  &:hover {
+    color: #fff;
+    background: $color-one;
+  }
 }
