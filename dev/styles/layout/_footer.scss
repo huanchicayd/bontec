@@ -1,0 +1,137 @@
+.bonteco {
+  height: 315px;
+  background: url("../images/cano.svg") no-repeat center 70%;
+  background-size: 1920px;
+
+  .container {
+    position: relative;
+    height: 315px;
+  }
+
+  img {
+    height: 315px;
+    position: absolute;
+    right: 0;
+  }
+}
+
+.bonteco__green-council {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translatex(-50%) translatey(-56%);
+
+  a {
+    color: #000;
+    text-decoration: none;
+    transition: color .5s;
+    display: flex;
+
+    &:hover {
+      color: $color-two;
+    }
+  }
+}
+
+.bonteco__green-council__content {
+  display: flex;
+  width: 285px;
+
+  img {
+    display: block;
+    height: 90px;
+    transform: translatey(-25px);
+  }
+}
+
+.bonteco__green-council__text {
+  border-top: 1px solid #000;
+  padding-top: 15px;
+
+  h4 {
+    font-family: $text-bold;
+    margin-bottom: 5px;
+  }
+
+  span {
+    font-size: 14px;
+  }
+}
+
+.footer {
+  background: $color-one;
+  border-top: 5px solid $color-two;
+  color: #fff;
+  font-size: 14px;
+  padding: 25px 0 50px 0;
+
+  img {
+    width: 130px;
+  }
+
+  .social-list {
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      margin-left: 10px;
+
+      i {
+        color: #fff;
+        font-size: 40px;
+        transition: color .25s;
+
+        &:hover {
+          color: $color-two;
+        }
+      }
+    }
+  }
+
+  h4 {
+    font-family: $text-bold;
+    font-size: 16px;
+  }
+
+  address {
+    font-style: normal;
+  }
+}
+
+.footer__logo-social {
+  margin-bottom: 50px;
+}
+
+.footer__contato-informacoes {
+  line-height: 22px;
+}
+
+.footer__contato,
+.footer__funcionamento,
+.footer__parceiro {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  border-left: 2px solid #fff;
+  padding-left: 15px;
+}
+
+.copyright {
+  padding-top: 20px;
+  height: 60px;
+  font-size: 14px;
+}
+
+.copyright__natio {
+  text-align: right;
+
+  a {
+    color: $color-six;
+    transition: .25s;
+    font-size: 16px;
+
+    &:hover {
+      color: $color-two;
+    }
+  }
+}

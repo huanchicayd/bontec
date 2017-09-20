@@ -1,0 +1,114 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.004);
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: $text-light;
+  color: $color-six;
+}
+
+p {
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: unset;
+}
+
+strong {
+  font-family: $text-bold;
+}
+
+
+h2 {
+  font-family: $text-bold;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: $color-one;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: $text-bold;
+}
+
+.btn {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.btn-primary {
+  border: 2px solid $color-one;
+  color: $color-one;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: $text-medium;
+  padding: 10px 50px;
+  cursor: pointer;
+  transition: .5s;
+
+  &:hover {
+    color: #fff;
+    background: $color-one;
+  }
+}
+
+a.btn-back {
+  width: 45px;
+  height: 45px;
+  background: $color-two;
+  position: fixed;
+  z-index: 10;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  text-align: center;
+
+  .arrow {
+    position: absolute;
+    top: 20px;
+
+    &:before,
+    &:after {
+      content: '';
+      display: block;
+      width: 15px;
+      height: 3px;
+      background: #fff;
+      position: absolute;
+    }
+
+    &:before {
+      transform: rotate(-45deg);
+      right: -3px;
+    }
+
+    &:after {
+      transform: rotate(45deg);
+      left: -3px;
+    }
+  }
+}
