@@ -2,78 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e272118c-b043-43d2-aa8c-fc4291dd10d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/styles/layout/_servicos.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contato.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Bold.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Bold.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Bold.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Bold.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Book.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Book.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Book.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Book.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Book.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Light.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Light.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Light.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Light.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Light.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Medium.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Medium.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Medium.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/gotham/Gotham-Medium.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-comodidade.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-custo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-evite.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-hidraulica.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-infinito.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-materiais.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-qualidade.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-reducao.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/beneficios-seguranca.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bontec_hidrometro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bonteco.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/chuveiro.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hidro-arrow.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hidro-arrow02.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/hidro-top-marker.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/logotipo.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/obras-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/sanitario.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/servicos-thumb.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/slider02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/torneira.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/obras.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/planos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/plugins/jquery-3.2.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/plugins/slick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/servicos.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sobre.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/base/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/base/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/base/_normalize.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/components/_main-slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/_fonts.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/helpers/_functions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/helpers/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/helpers/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/layout/_content.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/layout/_footer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/layout/_header.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/plugins/_slick.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/style.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/style.scss" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/servicos.php" afterPath="$PROJECT_DIR$/dev/servicos.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="servicos.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="servicos.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/servicos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="136">
+              <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -110,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="68">
+              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -172,10 +101,10 @@
         <option value="$PROJECT_DIR$/dev/footer.php" />
         <option value="$PROJECT_DIR$/dev/styles/fonts/_fonts.scss" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_footer.scss" />
-        <option value="$PROJECT_DIR$/dev/servicos.php" />
         <option value="$PROJECT_DIR$/dev/styles/style.scss" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_servicos.scss" />
         <option value="$PROJECT_DIR$/dev/header.php" />
+        <option value="$PROJECT_DIR$/dev/servicos.php" />
       </list>
     </option>
   </component>
@@ -223,6 +152,11 @@
               <item name="bontec" type="b2602c69:ProjectViewProjectNode" />
               <item name="bontec" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="bontec" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bontec" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -269,17 +203,18 @@
       <workItem from="1505732860844" duration="28272000" />
       <workItem from="1505820343827" duration="15174000" />
       <workItem from="1505850457703" duration="8055000" />
-      <workItem from="1505905390144" duration="5048000" />
+      <workItem from="1505905390144" duration="6448000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58056000" />
+    <option name="totallyTimeSpent" value="59456000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.180625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -287,7 +222,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4184492" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4184492" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -312,7 +247,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/header.php" />
     <entry file="file://$PROJECT_DIR$/index.php" />
     <entry file="file://$PROJECT_DIR$/footer.php" />
     <entry file="file://$PROJECT_DIR$/header.php" />
@@ -517,14 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/servicos.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/style.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
@@ -541,10 +467,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/header.php">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/servicos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="62" column="59" lean-forward="false" selection-start-line="62" selection-start-column="59" selection-end-line="62" selection-end-column="59" />
           <folding />
         </state>
       </provider>
