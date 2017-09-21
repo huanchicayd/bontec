@@ -1721,6 +1721,7 @@ body {
   color: #373737; }
 
 p {
+  font-size: 14px;
   line-height: 24px; }
 
 a {
@@ -2046,27 +2047,28 @@ a.btn-back {
     .main-nav__btn-container {
       display: block;
       transform: translatey(-15px); } }
-  .main-nav__btn-container button {
+  .main-nav__btn-container button.main-nav__btn {
     width: 43px;
     height: 43px;
     background: transparent;
     border: 0;
     outline: none;
-    cursor: pointer; }
-    .main-nav__btn-container button span {
+    cursor: pointer;
+    z-index: 1; }
+    .main-nav__btn-container button.main-nav__btn span {
       display: block;
       margin: auto;
       width: 20px;
       height: 3px;
       background: #1a2d5f; }
-      .main-nav__btn-container button span:before {
+      .main-nav__btn-container button.main-nav__btn span:before {
         content: '';
         display: block;
         background: #1a2d5f;
         width: 20px;
         height: 3px;
         transform: translatey(-6px); }
-      .main-nav__btn-container button span:after {
+      .main-nav__btn-container button.main-nav__btn span:after {
         content: '';
         display: block;
         background: #1a2d5f;
@@ -2080,8 +2082,8 @@ a.btn-back {
     right: -300px;
     top: 0;
     bottom: 0;
-    z-index: 9999;
-    background: rgba(26, 45, 95, 0.85);
+    z-index: 5;
+    background: rgba(26, 45, 95, 0.95);
     width: 300px;
     transition: right .5s; } }
 
@@ -2094,10 +2096,43 @@ a.btn-back {
   right: 0;
   bottom: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.9); }
+  background: rgba(0, 0, 0, 0.75); }
 
 .main-nav__navmenu--active .main-nav__navmenu {
   right: 0; }
+
+button.main-nav__btn--fechar {
+  width: 43px;
+  height: 43px;
+  z-index: 100;
+  position: absolute;
+  top: 17px;
+  left: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+  outline: 0; }
+  @media (max-width: 1200px) {
+    button.main-nav__btn--fechar {
+      display: block; } }
+  button.main-nav__btn--fechar span {
+    display: block;
+    margin-left: 10px; }
+    button.main-nav__btn--fechar span:before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #fff;
+      transform: rotate(-45deg); }
+    button.main-nav__btn--fechar span:after {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #fff;
+      transform: translatey(-3px) rotate(45deg); }
 
 .main-nav__navmenu ul {
   display: flex; }

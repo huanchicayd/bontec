@@ -37,13 +37,14 @@
     transform: translatey(-15px);
   }
 
-  button {
+  button.main-nav__btn {
     width: 43px;
     height: 43px;
     background: transparent;
     border: 0;
     outline: none;
     cursor: pointer;
+    z-index: 1;
 
     span {
       display: block;
@@ -75,17 +76,14 @@
 
 .main-nav__navmenu {
   @media(max-width: 1200px) {
-    //display: none;
     position: fixed;
     right: -300px;
     top: 0;
     bottom: 0;
-    z-index: 9999;
-    background: rgba(26, 45, 95, 0.85);
+    z-index: 5;
+    background: rgba(26, 45, 95, 0.95);
     width: 300px;
     transition: right .5s;
-
-
   }
 }
 
@@ -99,12 +97,53 @@
     right: 0;
     bottom: 0;
     z-index: 1;
-    background: rgba(0,0,0,.9);
+    background: rgba(0,0,0,.75);
   }
 }
 
 .main-nav__navmenu--active .main-nav__navmenu {
   right: 0;
+}
+
+button.main-nav__btn--fechar {
+  width: 43px;
+  height: 43px;
+  z-index: 100;
+  position: absolute;
+  top: 17px;
+  left: 0;
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  display: none;
+  outline: 0;
+
+  @media(max-width: 1200px){
+    display: block;
+  }
+
+  span {
+    display: block;
+    margin-left: 10px;
+
+    &:before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #fff;
+      transform: rotate(-45deg);
+    }
+
+    &:after {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 3px;
+      background: #fff;
+      transform: translatey(-3px) rotate(45deg);
+    }
+  }
 }
 
 .main-nav__navmenu ul {

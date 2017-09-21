@@ -33,7 +33,11 @@
                                 <li><a href="#">Loja</a></li>
                                 <li><a href="contato.php">Contato</a></li>
                             </ul>
+                            <button class="main-nav__btn--fechar">
+                                <span></span>
+                            </button>
                         </nav>
+
                     </div>
                 </div>
             </div>

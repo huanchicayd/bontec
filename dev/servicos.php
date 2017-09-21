@@ -36,6 +36,7 @@
                     <h2>
                         Principais serviços
                     </h2>
+                    <p>Detalhamento dos serviços de conserto, manutenção e instalação</p>
                 </div>
             </div>
             <div class="row">
@@ -78,6 +79,86 @@
                             <li>Projeto</li>
                             <li>Termostato</li>
                             <li>Substituição de flexíveis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/servicos_boiler.jpg" alt="">
+                    <div>
+                        <img src="" alt="">
+                        <h3>Boiler</h3>
+                        <ul>
+                            <li>Assistência técnica autorizada</li>
+                            <li>Instalação</li>
+                            <li>Manutenção preventiva</li>
+                            <li>Conserto</li>
+                            <li>Lubrificação</li>
+                            <li>Resistência</li>
+                            <li>Limpeza</li>
+                            <li>Regulagem</li>
+                            <li>Laudo técnico</li>
+                            <li>Projeto</li>
+                            <li>Termostato</li>
+                            <li>Adequações da CEG</li>
+                            <li>Válvulas de segurança</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="images/servicos_fogao.jpg" alt="">
+                    <div>
+                        <img src="" alt="">
+                        <h3>Fogão</h3>
+                        <ul>
+                            <li>Instalação</li>
+                            <li>Manutenção preventiva</li>
+                            <li>Conserto</li>
+                            <li>Conversão</li>
+                            <li>Lubrificação</li>
+                            <li>Usina</li>
+                            <li>Limpeza</li>
+                            <li>Regulagem</li>
+                            <li>Laudo técnico</li>
+                            <li>Projeto</li>
+                            <li>Termostato</li>
+                            <li>Adequações da CEG</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="" alt="">
+                    <div>
+                        <img src="" alt="">
+                        <h3>Bombas pressurizadas</h3>
+                        <ul>
+                            <li>Instalação</li>
+                            <li>Venda</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img src="" alt="">
+                    <div>
+                        <img src="" alt="">
+                        <h3>Outros</h3>
+                        <ul>
+                            <li>Instalação</li>
+                            <li>
+                                Conserto:
+                                <p>
+                                    Válvula de descarga, Caixa acoplada, Torneira, Registro, Sifão, Rabicho, Ducha higiênica e Serviços Elétricos.
+                                </p>
+                            </li>
+                            <li>
+                                Substituição:
+                                <p>
+                                    De reatores e starts, sensores de presença e luz de emergência, interruptores e tomadas, chuveiros e resistências, fusíveis, disjuntores e soquetes de lâmpadas, automáticos e chaves magnéticas de bombas, campainhas e plugues de telefones, chaves monofásicas, bifásicas e trifásicas.
+                                </p>
+                            </li>
                         </ul>
                     </div>
                 </div>
