@@ -19,6 +19,11 @@ body {
 p {
   font-size: 14px;
   line-height: 24px;
+  margin-bottom: 25px;
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 a {
@@ -113,3 +118,4 @@ a.btn-back {
     }
   }
 }
+

@@ -6,10 +6,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>
-                        Serviços
-                    </h2>
-                    <p>Conserto, instalação e manutenção preventiva</p>
+                    <div class="servicos__descricao__header">
+                        <h2>
+                            Serviços
+                        </h2>
+                        <h5 class="section-header__subtitulo">Conserto, instalação e manutenção preventiva</h5>
+                    </div>
                 </div>
             </div>
             <div class="row">
@@ -36,14 +38,14 @@
                     <h2>
                         Principais serviços
                     </h2>
-                    <p>Detalhamento dos serviços de conserto, manutenção e instalação</p>
+                    <h5 class="section-header__subtitulo">Detalhamento dos serviços de conserto, manutenção e instalação</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <img src="images/servicos_assitencia.jpg" alt="">
-                    <div class="">
-                        <img src="" alt="">
+                    <div class="servicos__assistencia-tecnica">
+                        <img src="images/servicos_assistencia_icon.svg" alt="">
                         <h3>Assistência técnica autorizada</h3>
                         <strong>As principais marcas de aquecedor e boiler:</strong>
                         <ul>
@@ -62,8 +64,8 @@
                 </div>
                 <div class="col-lg-6">
                     <img src="images/servicos_aquecedor.jpg" alt="">
-                    <div>
-                        <img src="" alt="">
+                    <div class="servicos__aquecedor">
+                        <img src="images/servicos_aquecedor_icon.svg" alt="">
                         <h3>Aquecedor</h3>
                         <ul>
                             <li>Assistência técnica autorizada</li>
@@ -86,8 +88,8 @@
             <div class="row">
                 <div class="col-lg-6">
                     <img src="images/servicos_boiler.jpg" alt="">
-                    <div>
-                        <img src="" alt="">
+                    <div class="servicos__boiler">
+                        <img src="images/servicos_boiler_icon.svg" alt="">
                         <h3>Boiler</h3>
                         <ul>
                             <li>Assistência técnica autorizada</li>
@@ -108,8 +110,8 @@
                 </div>
                 <div class="col-lg-6">
                     <img src="images/servicos_fogao.jpg" alt="">
-                    <div>
-                        <img src="" alt="">
+                    <div class="servicos__fogao">
+                        <img src="images/servicos_fogao_icon.svg" alt="">
                         <h3>Fogão</h3>
                         <ul>
                             <li>Instalação</li>
@@ -130,9 +132,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="" alt="">
-                    <div>
-                        <img src="" alt="">
+                    <img src="images/servicos_bombas.jpg" alt="">
+                    <div class="servicos__bombas">
+                        <img src="images/servicos_bombas_icon.svg" alt="">
                         <h3>Bombas pressurizadas</h3>
                         <ul>
                             <li>Instalação</li>
@@ -141,20 +143,20 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img src="" alt="">
-                    <div>
-                        <img src="" alt="">
+                    <img src="images/servicos_outros.jpg" alt="">
+                    <div class="servicos__outros">
+                        <img src="images/servicos_outros_icon.svg" alt="">
                         <h3>Outros</h3>
                         <ul>
-                            <li>Instalação</li>
+                            <li><strong>Instalação</strong></li>
                             <li>
-                                Conserto:
+                                <strong>Conserto:</strong>
                                 <p>
                                     Válvula de descarga, Caixa acoplada, Torneira, Registro, Sifão, Rabicho, Ducha higiênica e Serviços Elétricos.
                                 </p>
                             </li>
                             <li>
-                                Substituição:
+                                <strong>Substituição:</strong>
                                 <p>
                                     De reatores e starts, sensores de presença e luz de emergência, interruptores e tomadas, chuveiros e resistências, fusíveis, disjuntores e soquetes de lâmpadas, automáticos e chaves magnéticas de bombas, campainhas e plugues de telefones, chaves monofásicas, bifásicas e trifásicas.
                                 </p>

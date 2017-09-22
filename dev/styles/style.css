@@ -1722,7 +1722,11 @@ body {
 
 p {
   font-size: 14px;
-  line-height: 24px; }
+  line-height: 24px;
+  margin-bottom: 25px; }
+
+p:last-child {
+  margin-bottom: 0; }
 
 a {
   text-decoration: none; }
@@ -2162,6 +2166,12 @@ button.main-nav__btn--fechar {
   .main-nav__navmenu li > a:hover {
     color: #afd705; }
 
+.section-header__subtitulo {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Gotham-Light", sans-serif;
+  margin-bottom: 50px; }
+
 .voce-sabia {
   margin: 50px 0 100px 0; }
   .voce-sabia h2 {
@@ -2438,6 +2448,75 @@ img.hidro-arrow-02 {
 .banner__servicos {
   background: url("../images/servicos_banner.jpg") no-repeat center;
   background-size: cover; }
+
+h2 {
+  margin-top: 50px;
+  margin-bottom: 15px; }
+
+h3 {
+  color: #c80000;
+  text-transform: inherit;
+  font-size: 22px; }
+
+strong {
+  color: #c80000;
+  font-size: 14px; }
+
+.servicos__principais-servicos {
+  margin-bottom: 120px; }
+
+.servicos__assistencia-tecnica strong {
+  display: block;
+  margin-left: 50px;
+  margin-bottom: 25px; }
+
+.servicos__assistencia-tecnica strong,
+.servicos__outros strong {
+  color: inherit; }
+
+.servicos__assistencia-tecnica,
+.servicos__aquecedor,
+.servicos__boiler,
+.servicos__bombas,
+.servicos__fogao,
+.servicos__outros {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  position: relative; }
+  .servicos__assistencia-tecnica img,
+  .servicos__aquecedor img,
+  .servicos__boiler img,
+  .servicos__bombas img,
+  .servicos__fogao img,
+  .servicos__outros img {
+    width: 35px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    margin-bottom: 25px; }
+  .servicos__assistencia-tecnica h3,
+  .servicos__aquecedor h3,
+  .servicos__boiler h3,
+  .servicos__bombas h3,
+  .servicos__fogao h3,
+  .servicos__outros h3 {
+    margin-left: 50px;
+    margin-bottom: 25px; }
+  .servicos__assistencia-tecnica ul,
+  .servicos__aquecedor ul,
+  .servicos__boiler ul,
+  .servicos__bombas ul,
+  .servicos__fogao ul,
+  .servicos__outros ul {
+    margin-left: 50px; }
+  .servicos__assistencia-tecnica li,
+  .servicos__aquecedor li,
+  .servicos__boiler li,
+  .servicos__bombas li,
+  .servicos__fogao li,
+  .servicos__outros li {
+    font-size: 14px;
+    margin-bottom: 15px; }
 
 .bonteco {
   height: 315px;

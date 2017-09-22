@@ -68,7 +68,7 @@
             <div class="row">
                 <div class="col-12">
                     <h2>Saúde Predial Plus <span class="saude-predial__title-destaque">Proteção Hidráulica</span></h2>
-                    <p class="saude-predial__subtitulo">Planos para condomínio, empresas, residências e aquecedor</p>
+                    <h5 class="saude-predial__subtitulo">Planos para condomínio, empresas, residências e aquecedor</h5>
                 </div>
             </div>
             <div class="row">
