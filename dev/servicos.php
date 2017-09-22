@@ -1,6 +1,6 @@
 <?php include('header.php') ?>
 
-<main>
+<main class="servicos">
     <div class="banner banner__servicos"></div>
     <div class="servicos__descricao">
         <div class="container">

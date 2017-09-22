@@ -2453,12 +2453,12 @@ h2 {
   margin-top: 50px;
   margin-bottom: 15px; }
 
-h3 {
+.servicos h3 {
   color: #c80000;
   text-transform: inherit;
   font-size: 22px; }
 
-strong {
+.servicos__descricao strong {
   color: #c80000;
   font-size: 14px; }
 
@@ -2517,6 +2517,48 @@ strong {
   .servicos__outros li {
     font-size: 14px;
     margin-bottom: 15px; }
+
+.banner {
+  height: 500px; }
+
+.banner__obras {
+  background: url("../images/servicos_banner.jpg") no-repeat center;
+  background-size: cover; }
+
+.obras strong {
+  color: #ff6400; }
+.obras li {
+  font-size: 14px; }
+
+.obras__principais-servicos {
+  margin-bottom: 120px; }
+  .obras__principais-servicos h3 {
+    text-transform: inherit;
+    color: #ff6400; }
+  .obras__principais-servicos li {
+    margin-left: 50px;
+    margin-bottom: 15px; }
+
+.obras__principais-servicos__construcao,
+.obras__principais-servicos__instalacao,
+.obras__principais-servicos__reforma,
+.obras__principais-servicos__profissionais {
+  position: relative;
+  margin-bottom: 50px; }
+  .obras__principais-servicos__construcao img,
+  .obras__principais-servicos__instalacao img,
+  .obras__principais-servicos__reforma img,
+  .obras__principais-servicos__profissionais img {
+    width: 35px;
+    position: absolute;
+    top: -5px;
+    left: 0; }
+  .obras__principais-servicos__construcao h3,
+  .obras__principais-servicos__instalacao h3,
+  .obras__principais-servicos__reforma h3,
+  .obras__principais-servicos__profissionais h3 {
+    margin-left: 50px;
+    margin-bottom: 25px; }
 
 .bonteco {
   height: 315px;
