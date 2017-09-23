@@ -1,7 +1,7 @@
 <?php include('header.php') ?>
 
-    <main>
+<main>
 
-    </main>
+</main>
 
 <?php include('footer.php') ?>
