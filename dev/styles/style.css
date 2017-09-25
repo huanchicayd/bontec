@@ -2445,6 +2445,28 @@ img.hidro-arrow-02 {
 .banner {
   height: 500px; }
 
+.banner__planos {
+  background: url("../images/slider01.jpg") no-repeat center;
+  background-size: cover; }
+
+.saude-predial-interna__descricao strong {
+  color: #afd705; }
+
+.saude-predial-plano__tabela table {
+  width: 100%; }
+  .saude-predial-plano__tabela table .table-header {
+    text-align: center;
+    background: #afd705;
+    padding: 10px 0;
+    font-size: 22px;
+    font-family: "Gotham-BOld", sans-serif;
+    color: #1a2d5f; }
+  .saude-predial-plano__tabela table tr.table-content > td {
+    width: 33.33%; }
+
+.banner {
+  height: 500px; }
+
 .banner__servicos {
   background: url("../images/servicos_banner.jpg") no-repeat center;
   background-size: cover; }

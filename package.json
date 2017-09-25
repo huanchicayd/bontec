@@ -1,7 +1,6 @@
 {
   "name": "bontec",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "gulp": "gulp",
@@ -29,5 +28,6 @@
     "gulp-kraken": "^0.2.0",
     "gulp-uglify": "^3.0.0",
     "imagemin-jpeg-recompress": "^5.1.0"
-  }
+  },
+  "description": ""
 }

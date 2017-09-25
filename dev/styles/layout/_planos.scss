@@ -1,0 +1,37 @@
+.banner {
+  height: 500px;
+}
+
+.banner__planos {
+  background: url("../images/slider01.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.saude-predial-interna__descricao {
+  strong {
+    color: $color-two;
+  }
+}
+
+.saude-predial-plano__tabela {
+  table {
+    width: 100%;
+
+    .table-header {
+      text-align: center;
+      background: $color-two;
+      padding: 10px 0;
+      font-size: 22px;
+      font-family: $text-bold;
+      color: $color-one;
+    }
+
+    tr.table-content {
+      > td {
+        width: 33.33%;
+      }
+    }
+  }
+
+
+}
