@@ -40,28 +40,50 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="saude-predial-plano__tabela">
-                        <table>
-                            <tr>
-                                <td class="table-header">Para condomínios residenciais e comerciais</td>
-                            </tr>
-                            <tr class="table-content">
-                                <td>
-                                    Serviços incluídos
+                        <div class="tabela">
+                            <div class="tabela__header">
+                                <h4>Para condomínios residenciais e comerciais</h4>
+                            </div>
+                            <div class="tabela__body">
+                                <div>
+                                    <h4>Serviços incluídos</h4>
                                     <ul>
                                         <li>Consertos de válvulas de descarga;</li>
                                         <li>Consertos de caixas acopladas;</li>
                                         <li>Substituição de rabichos (PVC);</li>
-                                        <li>Conserto ou substituição de torneiras, castelos de torneiras/registros e duchinhas higiênicas;</li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
+                                        <li>Consertos ou substituição de torneiras, castelos de torneiras/registros e duchinhas higiênicas;</li>
+                                        <li>Consertos, regulagens ou substituição de bóias e automáticos de cisternas e caixas d'água;</li>
+                                        <li>Consultoria hidráulica - Para identificação de vazamentos em tubulações de incêndio, de alimentação de cisternas e caixas d'água;</li>
+                                        <li>Acompanhamento regular da conta de água, de acrodo com os gráficos de controle da empresa.</li>
                                     </ul>
-                                </td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </table>
+                                </div>
+                                <div>
+                                    <h4>Materiais incluídos</h4>
+                                    <ul>
+                                        <li>Reparo de válvulas de descarga;</li>
+                                        <li>Bóia de caixa acoplada;</li>
+                                        <li>Acionador (simples acionamento);</li>
+                                        <li>Cabeçote;</li>
+                                        <li>Obturador;</li>
+                                        <li>Torre de entrada/saída para caixas acopladas (simples acionamento);</li>
+                                        <li>Carrapetas/vedantes;</li>
+                                        <li>Juntas de vedação, fibras, fita teflon e massa zarcão.</li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <h4>Prioridades em foco</h4>
+                                    <ul>
+                                        <li>Economia direta de água/luz;</li>
+                                        <li>Comodidade para marcação das visitas;</li>
+                                        <li>Segurança;</li>
+                                        <li>Melhor custo x benefício.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tabela__footer">
+                                Formas de pagamento: Boleto bancário || Contrato anual
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

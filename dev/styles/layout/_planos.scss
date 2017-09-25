@@ -13,25 +13,43 @@
   }
 }
 
-.saude-predial-plano__tabela {
-  table {
-    width: 100%;
+.tabela {
 
-    .table-header {
-      text-align: center;
-      background: $color-two;
-      padding: 10px 0;
-      font-size: 22px;
-      font-family: $text-bold;
-      color: $color-one;
-    }
+  .tabela__header {
+    background: $color-two;
+    padding: 10px 0;
+    font-size: 22px;
+    font-family: $text-bold;
+    text-align: center;
+    color: $color-one;
+  }
 
-    tr.table-content {
-      > td {
-        width: 33.33%;
+  .tabela__body {
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      width: 33.33%;
+
+      &:first-child {
+        border-left: 2px solid $color-five;
+      }
+
+      &:last-child {
+        border-right: 2px solid $color-five;
+      }
+
+      &:nth-child(2) {
+        border-left: 2px solid $color-five;
+        border-right: 2px solid $color-five;
       }
     }
   }
 
-
+  .tabela__footer {
+    text-align: center;
+    background: $color-five;
+    color: $color-six;
+  }
 }
+
