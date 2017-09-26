@@ -1,0 +1,63 @@
+.banner {
+  height: 500px;
+}
+
+.banner__contato {
+  background: url("../images/obras_banner.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.contato-geral {
+  h3 {
+    color: $color-four;
+    text-transform: inherit;
+    font-size: 22px;
+    position: relative;
+  }
+}
+
+.contato-geral__formulario {
+  padding: 0 50px;
+
+  h3:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid red;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    border: 2px solid #dce3e3;
+    padding: 5px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+
+  textarea {
+    resize: none;
+  }
+}
+
+input.form-submit {
+  width: auto;
+  background: transparent;
+  border: 2px solid $color-one;
+  cursor: pointer;
+  font-family: $text-bold;
+  text-transform: uppercase;
+  transition: .25s;
+  font-size: 14px;
+  color: $color-one;
+  padding: 5px 35px;
+
+  &:hover {
+    background: $color-one;
+    color: #fff;
+  }
+}

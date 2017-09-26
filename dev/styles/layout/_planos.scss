@@ -8,9 +8,15 @@
 }
 
 .saude-predial-interna__descricao {
+  margin-bottom: 75px;
+
   strong {
     color: $color-two;
   }
+}
+
+.saude-predial-plano__tabela {
+  margin-top: 25px;
 }
 
 .saude-predial-video__video {
