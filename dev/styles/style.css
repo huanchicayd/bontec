@@ -2664,11 +2664,14 @@ h2 {
   background: url("../images/contato_banner.jpg") no-repeat center;
   background-size: cover; }
 
-.contato-geral h3 {
-  color: #1a2d5f;
-  text-transform: inherit;
-  font-size: 22px;
-  position: relative; }
+.contato-geral {
+  font-size: 16px; }
+  .contato-geral h3 {
+    color: #1a2d5f;
+    text-transform: inherit;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 25px; }
 
 .contato-geral__formulario {
   padding: 0 50px; }
@@ -2676,23 +2679,23 @@ h2 {
     content: '';
     display: block;
     position: absolute;
-    top: 0;
+    top: -5px;
     left: -50px;
     width: 35px;
-    height: 35px;
-    border: 1px solid red; }
+    height: 35px; }
   .contato-geral__formulario input,
   .contato-geral__formulario textarea {
     width: 100%;
     border: 2px solid #dce3e3;
-    padding: 5px;
-    height: 40px;
+    padding: 5px 10px;
+    height: 50px;
     margin-bottom: 25px;
     font-family: "Gotham-Light", sans-serif;
     font-size: 14px;
     color: #373737; }
   .contato-geral__formulario textarea {
-    resize: none; }
+    resize: none;
+    height: 180px; }
 
 input.form-submit {
   width: auto;
@@ -2708,6 +2711,69 @@ input.form-submit {
   input.form-submit:hover {
     background: #1a2d5f;
     color: #fff; }
+
+.contato-geral__formulario__select {
+  position: relative; }
+
+.contato-geral__formulario__selected-option {
+  width: 100%;
+  height: 50px;
+  cursor: pointer; }
+
+ul.contato-geral__formulario__select-items {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #dae4e4;
+  font-size: 14px;
+  opacity: 0;
+  z-index: -1;
+  transition: .25s; }
+  ul.contato-geral__formulario__select-items li a {
+    display: block;
+    color: #373737;
+    padding: 15px 15px; }
+    ul.contato-geral__formulario__select-items li a:hover {
+      background: #373737;
+      color: #fff; }
+
+.contato-geral__mais-informacoes {
+  padding-left: 50px; }
+
+.contato-geral__mais-informacoes__header-horario {
+  position: relative; }
+  .contato-geral__mais-informacoes__header-horario:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    width: 35px;
+    height: 35px; }
+
+.contato-geral__mais-informacoes__header-telefone {
+  position: relative; }
+  .contato-geral__mais-informacoes__header-telefone:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    width: 35px;
+    height: 35px; }
+
+.contato-geral__mais-informacoes__header-email {
+  position: relative; }
+  .contato-geral__mais-informacoes__header-email:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -50px;
+    width: 35px;
+    height: 35px; }
 
 .bonteco {
   height: 315px;

@@ -17,15 +17,17 @@
                         <form action="">
                             <input type="text" placeholder="Nome">
                             <input type="text" placeholder="Email">
-                            <ul>
-                                <li>Escolha um assunto</li>
-                                <li>Elogio</li>
-                                <li>Crítica</li>
-                                <li>Sugestão</li>
-                                <li>Trabalhe na Bontec</li>
-                                <li>Seja um parceiro</li>
-                                <li>Outros</li>
-                            </ul>
+                            <div class="contato-geral__formulario__select">
+                                <input type="text" readonly="true" class="contato-geral__formulario__selected-option" placeholder="Escolha um assunto">
+                                <ul class="contato-geral__formulario__select-items">
+                                    <li><a href="#">Elogio</a></li>
+                                    <li><a href="#">Crítica</a></li>
+                                    <li><a href="#">Sugestão</a></li>
+                                    <li><a href="#">Trabalhe na Bontec</a></li>
+                                    <li><a href="#">Seja um parceiro</a></li>
+                                    <li><a href="#">Outros</a></li>
+                                </ul>
+                            </div>
                             <textarea placeholder="Mensagem"></textarea>
                             <input type="submit" value="Enviar" class="form-submit">
                         </form>
@@ -33,16 +35,16 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contato-geral__mais-informacoes">
-                        <h3 class="contato-geral__mais-informacoes__header">Horário de Funcionamento</h3>
+                        <h3 class="contato-geral__mais-informacoes__header-horario">Horário de Funcionamento</h3>
                         <strong>Segunda à Sexta-feira:</strong>
                         <p>8:00h às 18:00h</p>
                         <strong>Sábado:</strong>
                         <p>8:00h às 12:00h</p>
 
-                        <h3 class="contato-geral__mais-informacoes__header">Telefone</h3>
+                        <h3 class="contato-geral__mais-informacoes__header-telefone">Telefone</h3>
                         <p>(21) 2556-4327</p>
 
-                        <h3 class="contato-geral__mais-informacoes__header">Email</h3>
+                        <h3 class="contato-geral__mais-informacoes__header-email">Email</h3>
                         <strong>Setor financeiro:</strong>
                         <p>financeiro@bontec.com.br</p>
                         <strong>Setor comercial</strong>
