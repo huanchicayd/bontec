@@ -33,16 +33,16 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="contato-geral__mais-informacoes">
-                        <h3>Horário de Funcionamento</h3>
+                        <h3 class="contato-geral__mais-informacoes__header">Horário de Funcionamento</h3>
                         <strong>Segunda à Sexta-feira:</strong>
                         <p>8:00h às 18:00h</p>
                         <strong>Sábado:</strong>
                         <p>8:00h às 12:00h</p>
 
-                        <h3>Telefone</h3>
+                        <h3 class="contato-geral__mais-informacoes__header">Telefone</h3>
                         <p>(21) 2556-4327</p>
 
-                        <h3>Email</h3>
+                        <h3 class="contato-geral__mais-informacoes__header">Email</h3>
                         <strong>Setor financeiro:</strong>
                         <p>financeiro@bontec.com.br</p>
                         <strong>Setor comercial</strong>

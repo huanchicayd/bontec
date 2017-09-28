@@ -85,17 +85,17 @@
       font-size: 14px;
       margin-bottom: 25px;
       position: relative;
-      padding-left: 50px;
+      padding-left: 35px;
 
       &:before {
         content: '';
         display: block;
         position: absolute;
-        top: 0;
+        top: -5px;
         left: 0;
-        width: 35px;
-        height: 35px;
-        border: 1px solid red;
+        width: 20px;
+        height: 20px;
+        background: url('../images/check.svg') no-repeat center center;
       }
     }
 

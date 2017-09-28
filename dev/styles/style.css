@@ -2506,16 +2506,16 @@ img.hidro-arrow-02 {
     font-size: 14px;
     margin-bottom: 25px;
     position: relative;
-    padding-left: 50px; }
+    padding-left: 35px; }
     .tabela .tabela__body li:before {
       content: '';
       display: block;
       position: absolute;
-      top: 0;
+      top: -5px;
       left: 0;
-      width: 35px;
-      height: 35px;
-      border: 1px solid red; }
+      width: 20px;
+      height: 20px;
+      background: url("../images/check.svg") no-repeat center center; }
   .tabela .tabela__body div {
     width: 33.33%;
     padding: 40px; }
@@ -2661,11 +2661,11 @@ h2 {
   height: 500px; }
 
 .banner__contato {
-  background: url("../images/obras_banner.jpg") no-repeat center;
+  background: url("../images/contato_banner.jpg") no-repeat center;
   background-size: cover; }
 
 .contato-geral h3 {
-  color: #ff6400;
+  color: #1a2d5f;
   text-transform: inherit;
   font-size: 22px;
   position: relative; }
@@ -2687,7 +2687,10 @@ h2 {
     border: 2px solid #dce3e3;
     padding: 5px;
     height: 40px;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    font-family: "Gotham-Light", sans-serif;
+    font-size: 14px;
+    color: #373737; }
   .contato-geral__formulario textarea {
     resize: none; }
 
