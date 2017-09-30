@@ -85,6 +85,7 @@ input.form-submit {
   position: absolute;
   top: 25px;
   right: 20px;
+  cursor: pointer;
 
   &:before{
     content: '';
@@ -119,7 +120,6 @@ input.form-submit {
   height: auto;
   background: #dae4e4;
   font-size: 14px;
-  //display: none;
   opacity: 0;
   z-index: -1;
   transition: .25s;

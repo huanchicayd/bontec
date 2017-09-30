@@ -2829,7 +2829,8 @@ input.form-submit {
 .contato-geral__formulario__arrow {
   position: absolute;
   top: 25px;
-  right: 20px; }
+  right: 20px;
+  cursor: pointer; }
   .contato-geral__formulario__arrow:before {
     content: '';
     display: block;
