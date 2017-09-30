@@ -179,6 +179,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12 col-12">
                     <div class="hidrometro__animacao">
+                        <div id="testando" class="odometer">400.000.000</div>
                         <img src="images/bontec_hidrometro.svg" alt="" class="hidrometro__image">
                         <img src="images/hidro-top-marker.svg" alt="" class="hidro-top-marker">
                         <img src="images/hidro-arrow.svg" alt="" class="hidro-arrow-01">

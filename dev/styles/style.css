@@ -1762,7 +1762,7 @@ h3 {
   text-transform: uppercase;
   font-size: 14px;
   font-family: "Gotham-Medium", sans-serif;
-  padding: 10px 50px;
+  padding: 15px 50px;
   cursor: pointer;
   transition: .5s; }
   .btn-primary:hover {
@@ -2018,6 +2018,110 @@ a.btn-back {
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: black; }
+
+#testando {
+  position: absolute;
+  top: 63px;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 10; }
+
+.odometer .odometer-inside {
+  text-align: center;
+  display: block; }
+  .odometer .odometer-inside span {
+    width: 11px;
+    text-align: center; }
+  .odometer .odometer-inside > span:last-child {
+    color: #c80000; }
+
+.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative; }
+
+.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  position: relative; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  visibility: hidden; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+  text-align: left;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon {
+  display: block; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner, .odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
+  display: block;
+  -webkit-backface-visibility: hidden; }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-default .odometer-digit .odometer-value {
+  display: block;
+  -webkit-transform: translateZ(0); }
+
+.odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value {
+  position: absolute; }
+
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s; }
+
+.odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
+.odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%); }
+
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+  -webkit-transition: -webkit-transform 2s;
+  -moz-transition: -moz-transform 2s;
+  -ms-transition: -ms-transform 2s;
+  -o-transition: -o-transform 2s;
+  transition: transform 2s;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  transform: translateY(0); }
+
+.odometer.odometer-auto-theme, .odometer.odometer-theme-default {
+  font-family: "Gotham-BOld", sans-serif, sans-serif;
+  line-height: 1.1em; }
+
+.odometer.odometer-auto-theme .odometer-value, .odometer.odometer-theme-default .odometer-value {
+  text-align: center; }
 
 .header {
   background: rgba(255, 255, 255, 0.9);
@@ -2687,33 +2791,59 @@ h2 {
   .contato-geral__formulario textarea {
     width: 100%;
     border: 2px solid #dce3e3;
-    padding: 5px 10px;
+    padding: 5px 15px;
     height: 50px;
     margin-bottom: 25px;
     font-family: "Gotham-Light", sans-serif;
     font-size: 14px;
-    color: #373737; }
+    color: #373737;
+    outline: 0;
+    transition: .5s; }
+    .contato-geral__formulario input:focus,
+    .contato-geral__formulario textarea:focus {
+      border: 2px solid #1a2d5f; }
   .contato-geral__formulario textarea {
     resize: none;
-    height: 180px; }
+    height: 180px;
+    padding-top: 15px; }
 
 input.form-submit {
-  width: auto;
+  width: inherit;
+  height: inherit;
   background: transparent;
   border: 2px solid #1a2d5f;
   cursor: pointer;
   font-family: "Gotham-BOld", sans-serif;
   text-transform: uppercase;
+  text-align: center;
   transition: .25s;
   font-size: 14px;
-  color: #1a2d5f;
-  padding: 5px 35px; }
+  color: #1a2d5f; }
   input.form-submit:hover {
     background: #1a2d5f;
     color: #fff; }
 
 .contato-geral__formulario__select {
   position: relative; }
+
+.contato-geral__formulario__arrow {
+  position: absolute;
+  top: 25px;
+  right: 20px; }
+  .contato-geral__formulario__arrow:before {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #000;
+    transform: translatey(2px) translatex(-5px) rotate(45deg); }
+  .contato-geral__formulario__arrow:after {
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #000;
+    transform: rotate(-45deg); }
 
 .contato-geral__formulario__selected-option {
   width: 100%;
@@ -2736,7 +2866,7 @@ ul.contato-geral__formulario__select-items {
     color: #373737;
     padding: 15px 15px; }
     ul.contato-geral__formulario__select-items li a:hover {
-      background: #373737;
+      background: #1a2d5f;
       color: #fff; }
 
 .contato-geral__mais-informacoes {

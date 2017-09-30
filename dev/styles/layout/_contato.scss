@@ -36,31 +36,40 @@
   textarea {
     width: 100%;
     border: 2px solid #dce3e3;
-    padding: 5px 10px;
+    padding: 5px 15px;
     height: 50px;
     margin-bottom: 25px;
     font-family: $text-light;
     font-size: 14px;
     color: $color-six;
+    outline: 0;
+    transition: .5s;
+
+    &:focus {
+      border: 2px solid $color-one;
+    }
   }
 
   textarea {
     resize: none;
     height: 180px;
+    padding-top: 15px;
   }
 }
 
 input.form-submit {
-  width: auto;
+  width: inherit;
+  height: inherit;
   background: transparent;
   border: 2px solid $color-one;
   cursor: pointer;
   font-family: $text-bold;
   text-transform: uppercase;
+  text-align: center;
   transition: .25s;
   font-size: 14px;
   color: $color-one;
-  padding: 5px 35px;
+  //padding: 15px 50px;
 
   &:hover {
     background: $color-one;
@@ -70,6 +79,30 @@ input.form-submit {
 
 .contato-geral__formulario__select {
   position: relative;
+}
+
+.contato-geral__formulario__arrow {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+
+  &:before{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #000;
+    transform: translatey(2px) translatex(-5px) rotate(45deg);
+  }
+
+  &:after{
+    content: '';
+    display: block;
+    width: 8px;
+    height: 2px;
+    background: #000;
+    transform: rotate(-45deg);
+  }
 }
 
 .contato-geral__formulario__selected-option {
@@ -97,7 +130,7 @@ ul.contato-geral__formulario__select-items {
       padding: 15px 15px;
 
       &:hover {
-        background: $color-six;
+        background: $color-one;
         color: #fff;
       }
     }

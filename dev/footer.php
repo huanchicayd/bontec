@@ -89,6 +89,24 @@
 
 <script src="scripts/plugins/jquery-3.2.1.min.js"></script>
 <script src="scripts/plugins/slick.min.js"></script>
+<script src="scripts/plugins/odometer.min.js"></script>
 <script src="scripts/main.js"></script>
+
+<script>
+
+        var value = 400000000;
+        var elemento = document.querySelector('#testando');
+        var hidrometro = new Odometer ({
+            el: elemento,
+            value: value,
+            format: '(.ddd)',
+            theme: 'default'
+        });
+
+        setInterval(function(){
+            hidrometro.update(value++);
+        }, 3000);
+
+</script>
 </body>
 </html>
