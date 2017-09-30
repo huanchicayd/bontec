@@ -142,6 +142,10 @@
   background: #dce3e3;
   height: 182px;
   margin-bottom: 150px;
+
+  @media(max-width: 991px){
+    height: auto;
+  }
 }
 
 .hidrometro__texto {
@@ -151,14 +155,35 @@
     font-size: 28px;
     color: $color-one;
     margin-top: 50px;
-    padding: 0 180px 0 90px;
+    padding: 0 150px 0 0;
     line-height: 38px;
+
+    @media(max-width: 1199px){
+      padding: inherit;
+    }
+
+    @media(max-width: 1090px) {
+      padding: 0 50px 0 0;
+    }
+
+    @media(max-width: 991px){
+      text-align: center;
+      padding: inherit;
+      margin-top: 0;
+      margin-bottom: 50px;
+    }
   }
 }
 
 .hidrometro__animacao {
   position: relative;
   transform: translatey(-25px);
+  width: 365px;
+
+  @media(max-width: 991px){
+    left: 50%;
+    transform: translatey(-25px) translatex(-50%);
+  }
 }
 
 img.hidrometro__image {

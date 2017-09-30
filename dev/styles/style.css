@@ -2021,7 +2021,7 @@ a.btn-back {
 
 #testando {
   position: absolute;
-  top: 63px;
+  top: 67px;
   left: 50%;
   transform: translatex(-50%);
   z-index: 10; }
@@ -2270,6 +2270,9 @@ button.main-nav__btn--fechar {
   .main-nav__navmenu li > a:hover {
     color: #afd705; }
 
+.main-nav__navmenu li > a.active-link {
+  color: #afd705; }
+
 .section-header__subtitulo {
   font-size: 18px;
   text-align: center;
@@ -2373,6 +2376,9 @@ button.main-nav__btn--fechar {
   background: #dce3e3;
   height: 182px;
   margin-bottom: 150px; }
+  @media (max-width: 991px) {
+    .hidrometro {
+      height: auto; } }
 
 .hidrometro__texto h3 {
   font-family: "Gotham-Book", sans-serif;
@@ -2380,12 +2386,29 @@ button.main-nav__btn--fechar {
   font-size: 28px;
   color: #1a2d5f;
   margin-top: 50px;
-  padding: 0 180px 0 90px;
+  padding: 0 150px 0 0;
   line-height: 38px; }
+  @media (max-width: 1199px) {
+    .hidrometro__texto h3 {
+      padding: inherit; } }
+  @media (max-width: 1090px) {
+    .hidrometro__texto h3 {
+      padding: 0 50px 0 0; } }
+  @media (max-width: 991px) {
+    .hidrometro__texto h3 {
+      text-align: center;
+      padding: inherit;
+      margin-top: 0;
+      margin-bottom: 50px; } }
 
 .hidrometro__animacao {
   position: relative;
-  transform: translatey(-25px); }
+  transform: translatey(-25px);
+  width: 365px; }
+  @media (max-width: 991px) {
+    .hidrometro__animacao {
+      left: 50%;
+      transform: translatey(-25px) translatex(-50%); } }
 
 img.hidrometro__image {
   width: 365px; }
@@ -2818,7 +2841,8 @@ input.form-submit {
   text-align: center;
   transition: .25s;
   font-size: 14px;
-  color: #1a2d5f; }
+  color: #1a2d5f;
+  padding: 15px; }
   input.form-submit:hover {
     background: #1a2d5f;
     color: #fff; }

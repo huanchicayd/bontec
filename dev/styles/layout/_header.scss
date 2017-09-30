@@ -181,3 +181,7 @@ button.main-nav__btn--fechar {
     color: $color-two;
   }
 }
+
+.main-nav__navmenu li > a.active-link {
+  color: $color-two;
+}

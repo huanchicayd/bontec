@@ -79,12 +79,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <p>
                         O plano de Manutenção Predial da BONTEC, possui o objetivo principal de solucionar uma das maiores preocupações dos síndicos: <strong>A redução do valor da conta de água em seu condomínio.</strong>
                     </p>
                 </div>
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <p>
                         Além do melhor custo benefício em relação a contratação dos serviços avulsos, obtenha segurança, através de funcionários devidamente uniformizados, que somente circulam pelo condomínio se autorizados pela portaria.
                     </p>
@@ -96,7 +96,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <div class="saude-predial__servicos">
                         <h3>Serviços</h3>
                         <img src="images/servicos-thumb.jpg" alt="">
@@ -106,7 +106,7 @@
                         <button class="btn btn-primary">Saiba mais</button>
                     </div>
                 </div>
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <div class="saude-predial__obras">
                         <h3>Obras</h3>
                         <img src="images/obras-thumb.jpg" alt="">
@@ -127,7 +127,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <ul class="beneficios__lista">
                         <li>
                             <img src="images/beneficios-reducao.svg" alt="">
@@ -147,7 +147,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-6 col-12">
+                <div class="col-lg-6 col-md-12 col-12">
                     <ul class="beneficios__lista">
                         <li>
                             <img src="images/beneficios-comodidade.svg" alt="">
@@ -177,7 +177,7 @@
     <div class="hidrometro">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-sm-12 col-12">
+                <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                     <div class="hidrometro__animacao">
                         <div id="testando" class="odometer">400.000.000</div>
                         <img src="images/bontec_hidrometro.svg" alt="" class="hidrometro__image">
@@ -186,7 +186,7 @@
                         <img src="images/hidro-arrow.svg" alt="" class="hidro-arrow-02">
                     </div>
                 </div>
-                <div class="col-lg-8 col-sm-12 col-12">
+                <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                     <div class="hidrometro__texto">
                         <h3>
                             A Bontec já economizou <strong>mais

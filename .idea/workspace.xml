@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="e272118c-b043-43d2-aa8c-fc4291dd10d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/contato.php" afterPath="$PROJECT_DIR$/dev/contato.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/footer.php" afterPath="$PROJECT_DIR$/dev/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.php" afterPath="$PROJECT_DIR$/dev/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/scripts/main.js" afterPath="$PROJECT_DIR$/dev/scripts/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/layout/_contato.scss" afterPath="$PROJECT_DIR$/dev/styles/layout/_contato.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/layout/_header.scss" afterPath="$PROJECT_DIR$/dev/styles/layout/_header.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/layout/_home.scss" afterPath="$PROJECT_DIR$/dev/styles/layout/_home.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/plugins/_odometer.scss" afterPath="$PROJECT_DIR$/dev/styles/plugins/_odometer.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.css" afterPath="$PROJECT_DIR$/dev/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.css.map" afterPath="$PROJECT_DIR$/dev/styles/style.css.map" />
     </list>
@@ -24,31 +28,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="contato.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dev/contato.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="21" column="86" lean-forward="true" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+            <state relative-caret-position="-2650">
+              <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_contato.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dev/styles/layout/_contato.scss">
+      <file leaf-file-name="_home.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/layout/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="87" column="17" lean-forward="false" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+            <state relative-caret-position="551">
+              <caret line="172" column="25" lean-forward="false" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dev/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+            <state relative-caret-position="306">
+              <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_odometer.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/styles/plugins/_odometer.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -61,6 +75,7 @@
       <find>embed</find>
       <find>saude</find>
       <find>.odometer-inside</find>
+      <find>hidrometro</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -92,8 +107,6 @@
         <option value="$PROJECT_DIR$/dev/styles/fonts/_fonts.scss" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_footer.scss" />
         <option value="$PROJECT_DIR$/dev/header.php" />
-        <option value="$PROJECT_DIR$/dev/styles/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/dev/styles/layout/_home.scss" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_content.scss" />
         <option value="$PROJECT_DIR$/dev/servicos.php" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_servicos.scss" />
@@ -103,14 +116,16 @@
         <option value="$PROJECT_DIR$/dev/styles/base/_base.scss" />
         <option value="$PROJECT_DIR$/dev/styles/style.scss" />
         <option value="$PROJECT_DIR$/dev/scripts/plugins/odometer.min.js" />
-        <option value="$PROJECT_DIR$/dev/index.php" />
-        <option value="$PROJECT_DIR$/dev/styles/plugins/_odometer.scss" />
         <option value="$PROJECT_DIR$/dev/scripts/plugins/select.js" />
-        <option value="$PROJECT_DIR$/dev/scripts/main.js" />
         <option value="$PROJECT_DIR$/dev/scripts/select.js" />
-        <option value="$PROJECT_DIR$/dev/footer.php" />
         <option value="$PROJECT_DIR$/dev/contato.php" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_contato.scss" />
+        <option value="$PROJECT_DIR$/dev/scripts/main.js" />
+        <option value="$PROJECT_DIR$/dev/styles/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/dev/styles/plugins/_odometer.scss" />
+        <option value="$PROJECT_DIR$/dev/styles/layout/_home.scss" />
+        <option value="$PROJECT_DIR$/dev/index.php" />
+        <option value="$PROJECT_DIR$/dev/footer.php" />
       </list>
     </option>
   </component>
@@ -201,20 +216,14 @@
               <item name="bontec" type="b2602c69:ProjectViewProjectNode" />
               <item name="bontec" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="bontec" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bontec" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="scripts" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bontec" type="b2602c69:ProjectViewProjectNode" />
               <item name="bontec" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dev" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="layout" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="bontec" type="b2602c69:ProjectViewProjectNode" />
@@ -305,16 +314,15 @@
       <workItem from="1506607272030" duration="25352000" />
       <workItem from="1506682223115" duration="11109000" />
       <workItem from="1506723674456" duration="7402000" />
-      <workItem from="1506773698507" duration="20460000" />
+      <workItem from="1506773698507" duration="22635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145311000" />
+    <option name="totallyTimeSpent" value="147486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.158125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -324,7 +332,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328877" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26737967" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26737967" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -407,38 +415,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="130" column="19" lean-forward="false" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="91" column="16" lean-forward="true" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="27" column="32" lean-forward="true" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2960">
-          <caret line="390" column="0" lean-forward="true" selection-start-line="390" selection-start-column="0" selection-end-line="390" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -526,30 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/plugins/_odometer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="181" column="41" lean-forward="false" selection-start-line="181" selection-start-column="41" selection-end-line="181" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/scripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scripts/select.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="444">
@@ -558,26 +514,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/footer.php">
+    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_contato.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="101" column="24" lean-forward="true" selection-start-line="101" selection-start-column="24" selection-end-line="101" selection-end-column="24" />
+        <state relative-caret-position="2414">
+          <caret line="71" column="15" lean-forward="false" selection-start-line="71" selection-start-column="15" selection-end-line="71" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/contato.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="21" column="86" lean-forward="true" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+        <state relative-caret-position="-1224">
+          <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_contato.scss">
+    <entry file="file://$PROJECT_DIR$/dev/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="87" column="17" lean-forward="false" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        <state relative-caret-position="-1154">
+          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="29" column="72" lean-forward="true" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="186" column="1" lean-forward="true" selection-start-line="186" selection-start-column="1" selection-end-line="186" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/plugins/_odometer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="172" column="25" lean-forward="false" selection-start-line="172" selection-start-column="25" selection-end-line="172" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/styles/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1804">
+          <caret line="130" column="19" lean-forward="false" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2650">
+          <caret line="81" column="37" lean-forward="true" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="57" column="49" lean-forward="false" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
           <folding />
         </state>
       </provider>

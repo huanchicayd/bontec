@@ -40,4 +40,18 @@ $(document).ready(function(){
         });
     }
     ativarMenuMobile();
+
+    $(function(){
+        var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+
+        console.log(pgurl);
+
+        $('.main-nav__navmenu a').each(function(){
+            console.log(this);
+            if($(this).attr('href') === pgurl || $(this).attr('href') === ''){
+                $(this).addClass('active-link');
+            }
+        });
+    });
+
 });

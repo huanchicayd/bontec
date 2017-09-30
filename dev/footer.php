@@ -38,7 +38,7 @@
         <div class="footer__contato-informacoes">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer__contato">
                             <h4>Contato</h4>
                             <address>
@@ -48,14 +48,14 @@
                             </address>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer__funcionamento">
                             <h4>Funcionamento</h4>
                             Segunda à Sexta de 8:00h às 18:00h<br>
                             Sábado de 08:00h à 12:00h
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4">
                         <div class="footer__parceiro">
                             <h4>Seja um parceiro!</h4>
                             Entre em contato conosco
