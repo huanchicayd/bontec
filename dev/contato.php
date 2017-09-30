@@ -18,9 +18,9 @@
                             <input type="text" placeholder="Nome">
                             <input type="text" placeholder="Email">
                             <div class="contato-geral__formulario__select">
-                                <input type="text" readonly="true" class="contato-geral__formulario__selected-option" placeholder="Escolha um assunto">
-                                <span class="contato-geral__formulario__arrow"></span>
-                                <ul class="contato-geral__formulario__select-items">
+                                <input type="text" readonly="true" class="contato-geral__formulario__selected" placeholder="Escolha um assunto">
+<!--                                <span class="contato-geral__formulario__arrow"></span>-->
+                                <ul class="contato-geral__formulario__lista">
                                     <li><a href="#">Elogio</a></li>
                                     <li><a href="#">Crítica</a></li>
                                     <li><a href="#">Sugestão</a></li>

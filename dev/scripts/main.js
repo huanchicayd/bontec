@@ -40,48 +40,4 @@ $(document).ready(function(){
         });
     }
     ativarMenuMobile();
-
-    var selectActivation = document.querySelector('.contato-geral__formulario__selected-option');
-    var selectMenu = document.querySelector('ul.contato-geral__formulario__select-items');
-
-    function abrirSelectForm(){
-        selectActivation.addEventListener('click', function() {
-            if(selectMenu.style.opacity === '1'){
-                selectMenu.style.opacity = '0';
-                selectMenu.style.zIndex = '-1';
-            } else {
-                selectMenu.style.opacity = '1';
-                selectMenu.style.zIndex = '1';
-            }
-            colocarTextoMenuSelected();
-        });
-    }
-    abrirSelectForm();
-
-    function fecharSelectOutsideClick() {
-        window.addEventListener('mouseup', function(evento) {
-            if(evento.target !== selectMenu
-                && evento.target.parentNode !== selectMenu
-                && evento.target !== selectActivation){
-                selectMenu.style.opacity = '0';
-                selectMenu.style.zIndex = '-1';
-            }
-        });
-    }
-    fecharSelectOutsideClick();
-
-    function colocarTextoMenuSelected() {
-        var selectMenuItems = document.querySelectorAll('.contato-geral__formulario__select-items a');
-        for(i = 0; i < selectMenuItems.length; i++){
-            selectMenuItems[i].addEventListener('click', function(e) {
-                e.preventDefault();
-                var texto = this.textContent;
-                selectActivation.value = texto;
-                selectMenu.style.opacity = '0';
-                selectMenu.style.zIndex = '-1';
-            });
-        }
-    }
-    abrirSelectForm();
 });
-

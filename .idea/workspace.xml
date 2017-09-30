@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e272118c-b043-43d2-aa8c-fc4291dd10d0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/styles/plugins/_odometer.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dev/scripts/select.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/contato.php" afterPath="$PROJECT_DIR$/dev/contato.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/footer.php" afterPath="$PROJECT_DIR$/dev/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/index.php" afterPath="$PROJECT_DIR$/dev/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/scripts/main.js" afterPath="$PROJECT_DIR$/dev/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/base/_base.scss" afterPath="$PROJECT_DIR$/dev/styles/base/_base.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/layout/_contato.scss" afterPath="$PROJECT_DIR$/dev/styles/layout/_contato.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.css" afterPath="$PROJECT_DIR$/dev/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.css.map" afterPath="$PROJECT_DIR$/dev/styles/style.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev/styles/style.scss" afterPath="$PROJECT_DIR$/dev/styles/style.scss" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,18 +29,28 @@
       <file leaf-file-name="contato.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/contato.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
+            <state relative-caret-position="206">
+              <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_contato.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_contato.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/styles/layout/_contato.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+            <state relative-caret-position="476">
+              <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -95,17 +102,24 @@
         <option value="$PROJECT_DIR$/dev/obras.php" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_obras.scss" />
         <option value="$PROJECT_DIR$/dev/styles/layout/_planos.scss" />
-        <option value="$PROJECT_DIR$/dev/contato.php" />
         <option value="$PROJECT_DIR$/dev/styles/base/_base.scss" />
-        <option value="$PROJECT_DIR$/dev/styles/layout/_contato.scss" />
         <option value="$PROJECT_DIR$/dev/styles/style.scss" />
         <option value="$PROJECT_DIR$/dev/scripts/plugins/odometer.min.js" />
         <option value="$PROJECT_DIR$/dev/index.php" />
-        <option value="$PROJECT_DIR$/dev/scripts/main.js" />
         <option value="$PROJECT_DIR$/dev/styles/plugins/_odometer.scss" />
+        <option value="$PROJECT_DIR$/dev/scripts/plugins/select.js" />
+        <option value="$PROJECT_DIR$/dev/scripts/main.js" />
         <option value="$PROJECT_DIR$/dev/footer.php" />
+        <option value="$PROJECT_DIR$/dev/contato.php" />
+        <option value="$PROJECT_DIR$/dev/styles/layout/_contato.scss" />
+        <option value="$PROJECT_DIR$/dev/scripts/select.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <exe-path />
+    <config-path />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -172,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -216,13 +229,28 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Front-End\bontec\dev\scripts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -278,12 +306,13 @@
       <workItem from="1506566048673" duration="850000" />
       <workItem from="1506607272030" duration="25352000" />
       <workItem from="1506682223115" duration="11109000" />
-      <workItem from="1506723674456" duration="5113000" />
+      <workItem from="1506723674456" duration="7402000" />
+      <workItem from="1506773698507" duration="19564000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122562000" />
+    <option name="totallyTimeSpent" value="144415000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -316,12 +345,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/styles/base/_normalize.scss" />
     <entry file="file://$PROJECT_DIR$/styles/styles.scss" />
     <entry file="file://$USER_HOME$/Desktop/Gotham/Gotham-Book/styles.css" />
     <entry file="file://$USER_HOME$/Desktop/Gotham/Gotham-Light/styles.css" />
@@ -489,21 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/contato.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/scripts/plugins/odometer.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
           <caret line="0" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -525,24 +542,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/scripts/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="920">
-          <caret line="109" column="9" lean-forward="false" selection-start-line="109" selection-start-column="9" selection-end-line="109" selection-end-column="9" />
+        <state relative-caret-position="612">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/styles/layout/_contato.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
+        <state relative-caret-position="476">
+          <caret line="121" column="4" lean-forward="false" selection-start-line="121" selection-start-column="4" selection-end-line="121" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/contato.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="20" column="49" lean-forward="false" selection-start-line="20" selection-start-column="49" selection-end-line="20" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/scripts/select.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="91" column="39" lean-forward="true" selection-start-line="91" selection-start-column="39" selection-end-line="91" selection-end-column="39" />
           <folding />
         </state>
       </provider>

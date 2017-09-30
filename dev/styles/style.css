@@ -2845,12 +2845,12 @@ input.form-submit {
     background: #000;
     transform: rotate(-45deg); }
 
-.contato-geral__formulario__selected-option {
+.contato-geral__formulario__selected {
   width: 100%;
   height: 50px;
   cursor: pointer; }
 
-ul.contato-geral__formulario__select-items {
+.contato-geral__formulario__lista {
   position: absolute;
   top: 50px;
   left: 0;
@@ -2861,11 +2861,11 @@ ul.contato-geral__formulario__select-items {
   opacity: 0;
   z-index: -1;
   transition: .25s; }
-  ul.contato-geral__formulario__select-items li a {
+  .contato-geral__formulario__lista li a {
     display: block;
     color: #373737;
     padding: 15px 15px; }
-    ul.contato-geral__formulario__select-items li a:hover {
+    .contato-geral__formulario__lista li a:hover {
       background: #1a2d5f;
       color: #fff; }
 
