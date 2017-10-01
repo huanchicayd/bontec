@@ -27,6 +27,17 @@ $(document).ready(function(){
     }
     voltarAoTopo();
 
+    function ativarLinkNav(){
+        var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+
+        $('.main-nav__navmenu a').each(function(){
+            if($(this).attr('href') === pgurl || $(this).attr('href') === ''){
+                $(this).addClass('active-link');
+            }
+        });
+    }
+    ativarLinkNav();
+
     function ativarMenuMobile(){
         var btn = document.querySelector('.main-nav__btn');
         var btnFechar = document.querySelector('.main-nav__btn--fechar');
@@ -40,18 +51,5 @@ $(document).ready(function(){
         });
     }
     ativarMenuMobile();
-
-    $(function(){
-        var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
-
-        console.log(pgurl);
-
-        $('.main-nav__navmenu a').each(function(){
-            console.log(this);
-            if($(this).attr('href') === pgurl || $(this).attr('href') === ''){
-                $(this).addClass('active-link');
-            }
-        });
-    });
 
 });

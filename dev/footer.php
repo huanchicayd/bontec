@@ -93,19 +93,20 @@
 <script src="scripts/select.js"></script>
 <script src="scripts/plugins/odometer.min.js"></script>
 <script>
-    var value = 400000000;
-    var elemento = document.querySelector('#testando');
-    var hidrometro = new Odometer ({
-        el: elemento,
-        value: value,
-        format: '(.ddd)',
-        theme: 'default'
-    });
+    (function(){
+        var value = 400000000;
+        var elemento = document.querySelector('#testando');
+        var hidrometro = new Odometer ({
+            el: elemento,
+            value: value,
+            format: '(.ddd)',
+            theme: 'default'
+        });
 
-    setInterval(function(){
-        hidrometro.update(value++);
-    }, 3000);
-
+        setInterval(function(){
+            hidrometro.update(value++);
+        }, 3000);
+    })();
 </script>
 </body>
 </html>
