@@ -1,0 +1,1 @@
+var pgurl=window.location.href.substr(window.location.href.lastIndexOf("/")+1);"index.php"===pgurl&&function(){var e=4e8,t=document.querySelector("#testando"),n=new Odometer({el:t,value:e,format:"(.ddd)",theme:"default"});setInterval(function(){n.update(e++)},3e3)}();

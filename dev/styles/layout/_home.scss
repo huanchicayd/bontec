@@ -61,12 +61,23 @@
   height: 0;
   margin: 50px auto;
 
+  @media(max-width: 991px){
+    width: 100%;
+    padding-bottom: 56%;
+  }
+
   iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+.home-video-text {
+  @media(max-width: 991px){
+    margin-top: 25px;
   }
 }
 
@@ -79,10 +90,17 @@
   h3 {
     color: $color-three;
     font-size: 22px;
+
+    @media(max-width: 991px){
+      text-align: center;
+    }
   }
 
   img {
     margin: 25px 0 15px 0;
+    @media(max-width: 991px){
+      width: 100%;
+    }
   }
 
   p {
@@ -93,16 +111,34 @@
   strong {
     color: $color-three;
   }
+
+  .servicos-btn {
+    @media(max-width: 991px){
+      display: block;
+      margin: auto;
+    }
+  }
 }
 
 .saude-predial__obras {
+  @media(max-width: 991px){
+    margin-top: 50px;
+  }
+
   h3 {
     color: $color-four;
     font-size: 22px;
+
+    @media(max-width: 991px){
+      text-align: center;
+    }
   }
 
   img {
     margin: 25px 0 15px 0;
+    @media(max-width: 991px){
+      width: 100%;
+    }
   }
 
   p {
@@ -113,6 +149,15 @@
   strong {
     color: $color-four;
   }
+
+  .obras-btn {
+    @media(max-width: 991px){
+      display: block;
+      margin: auto;
+    }
+  }
+
+
 }
 
 .beneficios {

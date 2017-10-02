@@ -4,6 +4,12 @@
 
   .container {
     height: 100%;
+
+    @media(max-width: 991px) {
+      max-width: 100%;
+      padding-left: 0;
+      padding-right: 0;
+    }
   }
 }
 
@@ -40,6 +46,10 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
+
+  @media(max-width: 991px){
+    right: 0;
+  }
 }
 
 .home-slider__content__box__text {

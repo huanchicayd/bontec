@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   height: 70px;
-  z-index: 2;
+  z-index: 1;
   padding-top: 23px;
 
   &:after {
@@ -88,7 +88,7 @@
 }
 
 .main-nav__navmenu--active {
-  &:after {
+  &:before {
     content: '';
     display: block;
     position: fixed;
@@ -120,6 +120,7 @@ button.main-nav__btn--fechar {
 
   @media(max-width: 1200px){
     display: block;
+    left: 13px;
   }
 
   span {
@@ -174,7 +175,10 @@ button.main-nav__btn--fechar {
   @media(max-width: 1200px){
     display: block;
     color: #fff;
-    padding: 10px;
+    padding: 15px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin: 5px 25px;
   }
 
   &:hover {

@@ -12,17 +12,17 @@
                     </div>
                 </a>
             </div>
-            <img src="images/bonteco.svg" alt="">
+            <img src="images/bonteco.svg" alt="" class="bonteco-personagem">
         </div>
     </div>
     <div class="footer">
         <div class="footer__logo-social">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-3">
                         <img src="images/logotipo-footer.svg" alt="">
                     </div>
-                    <div class="col-lg-9">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-9">
                         <div class="social-list">
                             <a href="#">
                                 <i class="social-facebook"></i>
@@ -68,10 +68,10 @@
     <div class="copyright">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-8 col-sm-8">
                     © 2016 <strong>Bontec</strong> | Todos os direitos reservados
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-sm-4">
                     <div class="copyright__natio">
                         <a href="#">
                             <i class="logo-natio"></i>
@@ -92,21 +92,6 @@
 <script src="scripts/main.js"></script>
 <script src="scripts/select.js"></script>
 <script src="scripts/plugins/odometer.min.js"></script>
-<script>
-    (function(){
-        var value = 400000000;
-        var elemento = document.querySelector('#testando');
-        var hidrometro = new Odometer ({
-            el: elemento,
-            value: value,
-            format: '(.ddd)',
-            theme: 'default'
-        });
-
-        setInterval(function(){
-            hidrometro.update(value++);
-        }, 3000);
-    })();
-</script>
+<script src="scripts/hidrometro.js"></script>
 </body>
 </html>

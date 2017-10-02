@@ -3,15 +3,29 @@
   background: url("../images/cano.svg") no-repeat center 70%;
   background-size: 1920px;
 
+  @media(max-width: 575px){
+    height: 400px;
+  }
+
   .container {
     position: relative;
     height: 315px;
+
+    @media(max-width: 575px){
+      height: 400px;
+    }
   }
 
-  img {
-    height: 315px;
-    position: absolute;
-    right: 0;
+     img.bonteco-personagem {
+      height: 315px;
+      position: absolute;
+      right: 0;
+
+    @media(max-width: 575px){
+      bottom: 0;
+      right: 50%;
+      transform: translatex(50%);
+    }
   }
 }
 
@@ -20,6 +34,16 @@
   top: 50%;
   left: 50%;
   transform: translatex(-50%) translatey(-56%);
+
+  @media(max-width: 767px){
+    top: 30%;
+    left: 30%;
+  }
+
+  @media(max-width: 575px){
+    top: 0;
+    left: 50%;
+  }
 
   a {
     color: #000;
@@ -37,9 +61,10 @@
   display: flex;
   width: 285px;
 
-  img {
+  > img.selo {
     display: block;
     height: 90px;
+    margin-left: 10px;
     transform: translatey(-25px);
   }
 }
@@ -67,6 +92,7 @@
 
   img {
     width: 130px;
+    max-width: 130px;
   }
 
   .social-list {

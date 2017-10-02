@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="voce-sabia__image-container">
                         <img src="images/torneira.svg" alt="">
                     </div>
@@ -43,7 +43,7 @@
                         Uma torneira aberta a <strong>cada minuto equivale a 4,5 litros</strong> de água
                     </p>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="voce-sabia__image-container">
                         <img src="images/chuveiro.svg" alt="">
                     </div>
@@ -51,7 +51,7 @@
                         Um chuveiro aberto <strong>a cada minuto desperdiça 6 litros</strong> de água
                     </p>
                 </div>
-                <div class="col-lg-4 col-12">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
                     <div class="voce-sabia__image-container">
                         <img src="images/sanitario.svg" alt="">
                     </div>
@@ -85,7 +85,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
-                    <p>
+                    <p class="home-video-text">
                         Além do melhor custo benefício em relação a contratação dos serviços avulsos, obtenha segurança, através de funcionários devidamente uniformizados, que somente circulam pelo condomínio se autorizados pela portaria.
                     </p>
                 </div>
@@ -103,7 +103,7 @@
                         <p>
                             A Bontec possui profissionais especializados em <strong>Instalação, Manutenção e Conserto</strong> de Aquecedor, Boiler, Fogão, Válvula de descarga, caixa acoplada, Bombas d`água, Torneiras, Registros, etc.
                         </p>
-                        <button class="btn btn-primary">Saiba mais</button>
+                        <button class="btn btn-primary servicos-btn">Saiba mais</button>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
@@ -113,7 +113,7 @@
                         <p>
                             Profissionais treinados e capacitados para executar <strong>serviços de troca de encanamento</strong> (água quente, fria e gás), <strong>pedreiro, ladrilheiro</strong> (azulejo e piso), <strong>rebaixamento em teto de gesso</strong>, etc.
                         </p>
-                        <button class="btn btn-primary">Saiba mais</button>
+                        <button class="btn btn-primary obras-btn">Saiba mais</button>
                     </div>
                 </div>
             </div>
