@@ -1,6 +1,6 @@
-var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
-if(pgurl === 'contato.php'){
-    (function(){
+(function(){
+    var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+    if(pgurl === 'contato.php'){
         var selectActivation = document.querySelector('.contato-geral__formulario__selected');
         var selectMenu = document.querySelector('.contato-geral__formulario__lista');
 
@@ -45,6 +45,6 @@ if(pgurl === 'contato.php'){
             }
         }
         ativarSelect();
-    })();
-}
+    }
+})();
 

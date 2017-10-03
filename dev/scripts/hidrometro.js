@@ -1,6 +1,6 @@
-var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
-if(pgurl === 'index.php') {
-    (function(){
+(function(){
+    var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
+    if(pgurl === 'index.php' || pgurl === '') {
         var value = 400000000;
         var elemento = document.querySelector('#testando');
         var hidrometro = new Odometer ({
@@ -13,5 +13,5 @@ if(pgurl === 'index.php') {
         setInterval(function(){
             hidrometro.update(value++);
         }, 3000);
-    })();
-}
+    }
+})();
