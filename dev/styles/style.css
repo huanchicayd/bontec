@@ -2873,7 +2873,7 @@ h2 {
     left: -50px;
     width: 35px;
     height: 35px;
-    border: 1px solid red; }
+    background: url("../images/contato_mensagem_icon.svg") no-repeat; }
   .contato-geral__formulario input,
   .contato-geral__formulario textarea {
     width: 100%;
@@ -2977,8 +2977,16 @@ input.form-submit {
     top: -5px;
     left: -50px;
     width: 35px;
-    height: 35px;
-    border: 1px solid red; }
+    height: 35px; }
+
+.contato-geral__mais-informacoes__header-horario:after {
+  background: url("../images/beneficios-comodidade.svg") no-repeat; }
+
+.contato-geral__mais-informacoes__header-telefone:after {
+  background: url("../images/contato_telefone_icon.svg") no-repeat; }
+
+.contato-geral__mais-informacoes__header-email:after {
+  background: url("../images/contato_email_icon.svg") no-repeat; }
 
 .bonteco {
   height: 315px;

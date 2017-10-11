@@ -1,4 +1,6 @@
 (function(){
+    'use strict';
+
     var pgurl = window.location.href.substr(window.location.href.lastIndexOf('/') + 1);
     if(pgurl === 'index.php' || pgurl === '') {
         var value = 400000000;

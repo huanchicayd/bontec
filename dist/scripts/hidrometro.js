@@ -1,1 +1,1 @@
-!function(){var e=window.location.href.substr(window.location.href.lastIndexOf("/")+1);if("index.php"===e||""===e){var t=4e8,n=document.querySelector("#testando"),o=new Odometer({el:n,value:t,format:"(.ddd)",theme:"default"});setInterval(function(){o.update(t++)},3e3)}}();
+!function(){"use strict";var e=window.location.href.substr(window.location.href.lastIndexOf("/")+1);if("index.php"===e||""===e){var t=4e8,n=document.querySelector("#testando"),o=new Odometer({el:n,value:t,format:"(.ddd)",theme:"default"});setInterval(function(){o.update(t++)},3e3)}}();
