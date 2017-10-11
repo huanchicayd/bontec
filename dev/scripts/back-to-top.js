@@ -1,4 +1,6 @@
 function voltarParaTopo(){
+    'use strict';
+
     var $document = document.querySelector('html');
     var $btnBack = document.querySelector('a.btn-back');
 
@@ -9,7 +11,7 @@ function voltarParaTopo(){
     });
 
     $btnBack.addEventListener('click', function() {
-        
+
     })
 }
 

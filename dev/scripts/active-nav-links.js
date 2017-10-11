@@ -1,4 +1,6 @@
 function ativarLinkNav(){
+    'use strict';
+
     var pgurl = window.location.href.substr(
         window.location.href.lastIndexOf('/') + 1
     );

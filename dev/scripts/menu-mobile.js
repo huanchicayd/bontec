@@ -1,4 +1,6 @@
 function ativarMenuMobile(){
+    'use strict';
+
     var $btn = document.querySelector('.main-nav__btn');
     var $btnFechar = document.querySelector('.main-nav__btn--fechar');
 
