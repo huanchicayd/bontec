@@ -3090,7 +3090,7 @@ input.form-submit {
   flex-direction: column;
   border-left: 2px solid #fff;
   padding-left: 15px; }
-  @media (max-width: 991px) {
+  @media (max-width: 767px) {
     .footer__contato,
     .footer__funcionamento,
     .footer__parceiro {
@@ -3100,7 +3100,7 @@ input.form-submit {
       text-align: center;
       border-left: 0; } }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .footer__contato {
     border-top: 2px solid #fff; } }
 

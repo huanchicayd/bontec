@@ -141,7 +141,7 @@
   border-left: 2px solid #fff;
   padding-left: 15px;
 
-  @media(max-width: 991px){
+  @media(max-width: 767px){
     padding-left: 0;
     padding-top: 50px;
     padding-bottom: 25px;
@@ -150,7 +150,7 @@
   }
 }
 .footer__contato {
-  @media(max-width: 991px){
+  @media(max-width: 767px){
     border-top: 2px solid #fff;
   }
 }
