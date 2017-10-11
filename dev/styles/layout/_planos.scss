@@ -41,6 +41,10 @@
   justify-content: center;
   height: 100%;
 
+  @media(max-width: 991px){
+    text-align: center;
+  }
+
   h6 {
     font-size: 20px;
     margin-bottom: 5px;
@@ -51,11 +55,19 @@
     font-family: $text-bold;
     font-size: 30px;
     margin-bottom: 25px;
+
+    @media(max-width: 991px){
+      margin-bottom: 5px;
+    }
   }
 
   h4 {
     font-family: $text-bold;
     font-size: 22px;
+
+    @media(max-width: 991px){
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -73,6 +85,10 @@
   .tabela__body {
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 991px){
+      flex-direction: column;
+    }
 
     h4 {
       color: $color-two;
@@ -103,12 +119,24 @@
       width: 33.33%;
       padding: 40px;
 
+      @media(max-width: 991px){
+        width: 100%;
+      }
+
       &:first-child {
         border-left: 2px solid #dde4e3;
+
+        @media(max-width: 991px){
+          border-right: 2px solid #dde4e3;
+        }
       }
 
       &:last-child {
         border-right: 2px solid #dde4e3;
+
+        @media(max-width: 991px){
+          border-left: 2px solid #dde4e3;
+        }
       }
 
       &:nth-child(2) {

@@ -68,10 +68,10 @@
     <div class="copyright">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-sm-8">
+                <div class="col-lg-8 col-sm-8 col-12">
                     © 2016 <strong>Bontec</strong> | Todos os direitos reservados
                 </div>
-                <div class="col-lg-4 col-sm-4">
+                <div class="col-lg-4 col-sm-4 col-12">
                     <div class="copyright__natio">
                         <a href="#">
                             <i class="logo-natio"></i>

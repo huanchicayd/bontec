@@ -26,7 +26,7 @@
                         </div>
                         <nav class="main-nav__navmenu">
                             <ul>
-                                <li><a href="sobre.php">Sobre</a></li>
+                                <li><a href="#">Sobre</a></li>
                                 <li><a href="planos.php">Planos</a></li>
                                 <li><a href="servicos.php">Serviços</a></li>
                                 <li><a href="obras.php">Obras</a></li>

@@ -24,7 +24,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <p>
+                    <p class="responsive-paragraph">
                         Além de poder contratar todos os serviços por demanda, possuímos um <strong>pacote de manutenção de aquecedor e boiler</strong>, cujo o objetivo é garantir o funcionamento dos aparelhos de gás, evitando interrupções por falta de manutenção, deterioração, instalações executadas erradamente ou pela dificuldade de se encontrar profissionais qualificados no mercado.
                     </p>
                 </div>

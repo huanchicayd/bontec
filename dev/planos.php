@@ -20,7 +20,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <p>
+                    <p class="responsive-paragraph">
                         Estão inclusos no nosso pacote todos os serviços corretivos no sistema hidráulico de <strong>todos os apartamentos e de toda parte comum do condomínio</strong>, incluindo o material necessário.
                     </p>
                     <p>

@@ -19,7 +19,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <p>
+                    <p class="responsive-paragraph">
                         Somos uma empresa especializada em <strong>reforma e gerenciamento de obras</strong>, garantindo planejamento e acompanhamento diário, do início ao fim da obra, levando o cliente a tranquilidade de construir ou reformar seu imóvel com qualidade, economia e um ótimo acabamento. Elaboramos projetos arquitetônicos, em função das necessidades apresentadas.
                     </p>
                 </div>

@@ -2283,6 +2283,9 @@ button.main-nav__btn--fechar {
   font-family: "Gotham-Light", sans-serif;
   margin-bottom: 50px; }
 
+.responsive-paragraph {
+  margin-top: 25px; }
+
 .voce-sabia {
   margin: 50px 0 100px 0; }
   .voce-sabia h2 {
@@ -2637,6 +2640,9 @@ img.hidro-arrow-02 {
   flex-direction: column;
   justify-content: center;
   height: 100%; }
+  @media (max-width: 991px) {
+    .saude-predial-video__texto {
+      text-align: center; } }
   .saude-predial-video__texto h6 {
     font-size: 20px;
     margin-bottom: 5px; }
@@ -2645,9 +2651,15 @@ img.hidro-arrow-02 {
     font-family: "Gotham-BOld", sans-serif;
     font-size: 30px;
     margin-bottom: 25px; }
+    @media (max-width: 991px) {
+      .saude-predial-video__texto h3 {
+        margin-bottom: 5px; } }
   .saude-predial-video__texto h4 {
     font-family: "Gotham-BOld", sans-serif;
     font-size: 22px; }
+    @media (max-width: 991px) {
+      .saude-predial-video__texto h4 {
+        margin-bottom: 50px; } }
 
 .tabela .tabela__header {
   background: #afd705;
@@ -2659,6 +2671,9 @@ img.hidro-arrow-02 {
 .tabela .tabela__body {
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 991px) {
+    .tabela .tabela__body {
+      flex-direction: column; } }
   .tabela .tabela__body h4 {
     color: #afd705;
     font-family: "Gotham-BOld", sans-serif;
@@ -2681,10 +2696,19 @@ img.hidro-arrow-02 {
   .tabela .tabela__body div {
     width: 33.33%;
     padding: 40px; }
+    @media (max-width: 991px) {
+      .tabela .tabela__body div {
+        width: 100%; } }
     .tabela .tabela__body div:first-child {
       border-left: 2px solid #dde4e3; }
+      @media (max-width: 991px) {
+        .tabela .tabela__body div:first-child {
+          border-right: 2px solid #dde4e3; } }
     .tabela .tabela__body div:last-child {
       border-right: 2px solid #dde4e3; }
+      @media (max-width: 991px) {
+        .tabela .tabela__body div:last-child {
+          border-left: 2px solid #dde4e3; } }
     .tabela .tabela__body div:nth-child(2) {
       border-left: 2px solid #dde4e3;
       border-right: 2px solid #dde4e3; }
@@ -2837,6 +2861,10 @@ h2 {
 
 .contato-geral__formulario {
   padding: 0 50px; }
+  @media (max-width: 991px) {
+    .contato-geral__formulario {
+      padding: 0 0 0 50px;
+      margin-bottom: 50px; } }
   .contato-geral__formulario h3:before {
     content: '';
     display: block;
@@ -2844,7 +2872,8 @@ h2 {
     top: -5px;
     left: -50px;
     width: 35px;
-    height: 35px; }
+    height: 35px;
+    border: 1px solid red; }
   .contato-geral__formulario input,
   .contato-geral__formulario textarea {
     width: 100%;
@@ -2931,31 +2960,16 @@ input.form-submit {
 
 .contato-geral__mais-informacoes {
   padding-left: 50px; }
+  @media (max-width: 991px) {
+    .contato-geral__mais-informacoes {
+      margin-bottom: 50px; } }
 
-.contato-geral__mais-informacoes__header-horario {
-  position: relative; }
-  .contato-geral__mais-informacoes__header-horario:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -50px;
-    width: 35px;
-    height: 35px; }
-
-.contato-geral__mais-informacoes__header-telefone {
-  position: relative; }
-  .contato-geral__mais-informacoes__header-telefone:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: -5px;
-    left: -50px;
-    width: 35px;
-    height: 35px; }
-
+.contato-geral__mais-informacoes__header-horario,
+.contato-geral__mais-informacoes__header-telefone,
 .contato-geral__mais-informacoes__header-email {
   position: relative; }
+  .contato-geral__mais-informacoes__header-horario:after,
+  .contato-geral__mais-informacoes__header-telefone:after,
   .contato-geral__mais-informacoes__header-email:after {
     content: '';
     display: block;
@@ -2963,7 +2977,8 @@ input.form-submit {
     top: -5px;
     left: -50px;
     width: 35px;
-    height: 35px; }
+    height: 35px;
+    border: 1px solid red; }
 
 .bonteco {
   height: 315px;
@@ -3067,14 +3082,34 @@ input.form-submit {
   flex-direction: column;
   border-left: 2px solid #fff;
   padding-left: 15px; }
+  @media (max-width: 991px) {
+    .footer__contato,
+    .footer__funcionamento,
+    .footer__parceiro {
+      padding-left: 0;
+      padding-top: 50px;
+      padding-bottom: 25px;
+      text-align: center;
+      border-left: 0; } }
+
+@media (max-width: 991px) {
+  .footer__contato {
+    border-top: 2px solid #fff; } }
 
 .copyright {
-  padding-top: 20px;
-  height: 60px;
+  padding: 20px 0;
+  min-height: 60px;
   font-size: 14px; }
+  @media (max-width: 575px) {
+    .copyright {
+      text-align: center; } }
 
 .copyright__natio {
   text-align: right; }
+  @media (max-width: 575px) {
+    .copyright__natio {
+      margin-top: 15px;
+      text-align: center; } }
   .copyright__natio a {
     color: #373737;
     transition: .25s;
