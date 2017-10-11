@@ -1,0 +1,1 @@
+function ativarLinkNav(){var a=window.location.href.substr(window.location.href.lastIndexOf("/")+1);$(".main-nav__navmenu a").each(function(){$(this).attr("href")!==a&&""!==$(this).attr("href")||$(this).addClass("active-link")})}ativarLinkNav();

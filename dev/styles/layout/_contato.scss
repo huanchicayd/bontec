@@ -5,6 +5,10 @@
 .banner__contato {
   background: url("../images/contato_banner.jpg") no-repeat center;
   background-size: cover;
+
+  @media(max-width: 767px){
+    background: url("../images/contato_banner.jpg") no-repeat 20%;
+  }
 }
 
 .contato-geral {

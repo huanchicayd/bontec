@@ -19,6 +19,10 @@
   background-size: cover;
   display: flex;
   outline: none;
+
+  @media(max-width: 767px){
+    background: url('../images/slider01.jpg') no-repeat 30%;
+  }
 }
 
 .home-slider__slider-item02 {
@@ -27,6 +31,10 @@
   background-size: cover;
   display: flex;
   outline: none;
+
+  @media(max-width: 767px){
+    background: url('../images/slider02.jpg') no-repeat 30%;
+  }
 }
 
 .home-slider__content {
@@ -49,6 +57,10 @@
 
   @media(max-width: 991px){
     right: 0;
+  }
+
+  @media(max-width: 350px){
+    width: 100%;
   }
 }
 

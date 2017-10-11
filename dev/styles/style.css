@@ -2613,6 +2613,9 @@ img.hidro-arrow-02 {
 .banner__planos {
   background: url("../images/slider01.jpg") no-repeat center;
   background-size: cover; }
+  @media (max-width: 767px) {
+    .banner__planos {
+      background: url("../images/slider01.jpg") no-repeat 30%; } }
 
 .saude-predial-interna__descricao {
   margin-bottom: 75px; }
@@ -2807,6 +2810,9 @@ h2 {
 .banner__obras {
   background: url("../images/obras_banner.jpg") no-repeat center;
   background-size: cover; }
+  @media (max-width: 767px) {
+    .banner__obras {
+      background: url("../images/obras_banner.jpg") no-repeat 40%; } }
 
 .obras strong {
   color: #ff6400; }
@@ -2849,6 +2855,9 @@ h2 {
 .banner__contato {
   background: url("../images/contato_banner.jpg") no-repeat center;
   background-size: cover; }
+  @media (max-width: 767px) {
+    .banner__contato {
+      background: url("../images/contato_banner.jpg") no-repeat 20%; } }
 
 .contato-geral {
   font-size: 16px; }
@@ -3142,6 +3151,9 @@ input.form-submit {
   background-size: cover;
   display: flex;
   outline: none; }
+  @media (max-width: 767px) {
+    .home-slider__slider-item01 {
+      background: url("../images/slider01.jpg") no-repeat 30%; } }
 
 .home-slider__slider-item02 {
   height: 500px;
@@ -3149,6 +3161,9 @@ input.form-submit {
   background-size: cover;
   display: flex;
   outline: none; }
+  @media (max-width: 767px) {
+    .home-slider__slider-item02 {
+      background: url("../images/slider02.jpg") no-repeat 30%; } }
 
 .home-slider__content {
   height: 100%;
@@ -3169,6 +3184,9 @@ input.form-submit {
   @media (max-width: 991px) {
     .home-slider__content__box {
       right: 0; } }
+  @media (max-width: 350px) {
+    .home-slider__content__box {
+      width: 100%; } }
 
 .home-slider__content__box__text {
   text-align: center; }

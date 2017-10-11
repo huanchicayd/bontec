@@ -5,6 +5,10 @@
 .banner__obras {
   background: url("../images/obras_banner.jpg") no-repeat center;
   background-size: cover;
+
+  @media(max-width: 767px){
+    background: url("../images/obras_banner.jpg") no-repeat 40%;
+  }
 }
 
 .obras {

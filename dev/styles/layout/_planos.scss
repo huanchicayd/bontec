@@ -5,6 +5,10 @@
 .banner__planos {
   background: url("../images/slider01.jpg") no-repeat center;
   background-size: cover;
+
+  @media(max-width: 767px){
+    background: url("../images/slider01.jpg") no-repeat 30%;
+  }
 }
 
 .saude-predial-interna__descricao {

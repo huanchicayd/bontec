@@ -93,5 +93,8 @@
 <script src="scripts/select.js"></script>
 <script src="scripts/plugins/odometer.min.js"></script>
 <script src="scripts/hidrometro.js"></script>
+<script src="scripts/back-to-top.js"></script>
+<script src="scripts/menu-mobile.js"></script>
+<script src="scripts/active-nav-links.js"></script>
 </body>
 </html>
